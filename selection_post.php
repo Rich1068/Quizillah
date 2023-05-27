@@ -5,7 +5,7 @@ require "selection.php";
 
 try {
         $_SESSION['Subject'] = $_POST['topic'];
-        header('Location: quiz.php');
+        echo "<script>window.location.href = 'quiz.php';</script>";
         exit;
 } catch (Exception $e) {
     echo '<h1>An error occurred:</h1>';
