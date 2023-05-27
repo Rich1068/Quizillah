@@ -21,7 +21,7 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
         <link rel="stylesheet" href="style.css">
     </head>
     
-    <body>
+    <body class="bg">
         <form method="POST" action="selection_post.php" id="selection" class="select">
             <div style="position: relative; display: inline-block;">
                 <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qTLWWAMPBPKUk1AdEccp2yP-dLWOoqvVOxahMUjW-D6Sdg5TRJe8kbFVwEjMWmQ79X2ALTLBpdV5XfSF9Tvb_akU5i3A=s2560"

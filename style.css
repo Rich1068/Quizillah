@@ -206,6 +206,7 @@ h3.head3{
 	font-family:sans-serif;
 }
 
+
 /*-------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------SELCTION---------------------------------------------------*/
 form.select{
@@ -216,6 +217,9 @@ form.select{
     margin: 0 auto;
     max-width: 1020px;
     height: 500px;
+}
+body.bg{
+    background-color: #66ff99; /*lagay piksur or bg */
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
@@ -300,7 +304,7 @@ button.button_type3 {
   }
   
   .button_type3:hover {
-    box-shadow: 1px 1px 200px #000000;
+    box-shadow: 1px 1px 200px #b303aa;
     color: #fff;
     border: none;
   }
@@ -345,7 +349,7 @@ button.button_type1 {
   }
   
   .button_type1:hover {
-    box-shadow: 1px 1px 200px #000000;
+    box-shadow: 1px 1px 200px #f10d0d;
     color: #fff;
     border: none;
   }
@@ -395,7 +399,7 @@ button.button_type4 {
   }
   
   .button_type4:hover {
-    box-shadow: 1px 1px 200px #000000;
+    box-shadow: 1px 1px 200px #cd930b;
     color: #fff;
     border: none;
   }
@@ -440,7 +444,7 @@ button.button_type5 {
   }
   
   .button_type5:hover {
-    box-shadow: 1px 1px 200px #000000;
+    box-shadow: 1px 1px 200px #08d073;
     color: #fff;
     border: none;
   }
