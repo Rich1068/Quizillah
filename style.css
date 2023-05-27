@@ -117,95 +117,94 @@ body.reg {
 /*-------------------------------------------------------------------------------------------------------------*/
 /*LOGIN*/
 input.email[type="email"],
-	input.pass[type="password"] 
-	{
-        padding: 5px;
-        border: 2px solid #00008B;	
-        border-radius: 20px;
-        margin-left: 25px;
-        margin-right: 25px;
-        width: 85%;
-        display: block;
-        transition: all 0.3s ease;
-    }
-	input.pass[type="password"]{
-		margin-bottom: 30px;
-	}
-	input.email[type="email"]{
-		margin-bottom: 5px;
-	}
+input.pass[type="password"] 
+{
+    padding: 5px;
+    border: 2px solid #00008B;	
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 85%;
+    display: block;
+    transition: all 0.3s ease;
+}
+input.pass[type="password"]{
+	margin-bottom: 30px;
+}
+input.email[type="email"]{
+	margin-bottom: 5px;
+}
 
-	button.login{
-        background-color: #4CAF50;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-        transition: all 0.3s ease;
-		margin-bottom: 20px;
-	}
+button.login{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+	margin-bottom: 20px;
+}
 
-	button.login:hover {
-        background-color: #3e8e41;
-        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-        transform: translate(2px, 2px);
-	}	
+button.login:hover {
+    background-color: #3e8e41;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translate(2px, 2px);
+}	
 	
+div.container {
+	text-align: right;
+	display: flex;
+	width: 1000px;
+	height: 700px;
+	max-width: 99%;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 0;
+	overflow: hidden;
+	background-color: #ffffff25;
+	border-radius: 0px;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
+	border: 0.1px solid rgba(128, 128, 128, 0.178);
+}
 
-	div.container {
-		text-align: right;
-		display: flex;
-		width: 1000px;
-		height: 700px;
-		max-width: 99%;
-		align-items: center;
-		justify-content: center;
-		position: absolute;
-		right: 0;
-		overflow: hidden;
-		background-color: #ffffff25;
-		border-radius: 0px;
-		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
-		border: 0.1px solid rgba(128, 128, 128, 0.178);
-	}
+div.divider {
+	height: 20px;
+	border: 10px;
+	display: flex;
+	position: center;
+	width: 89%;
+	margin-left: 25px;
+}
 
-	div.divider {
-		height: 20px;
-		border: 10px;
-		display: flex;
-		position: center;
-		width: 89%;
-		margin-left: 25px;
-	}
+div.divider::before,
+div.divider::after {
+	flex: 1;
+	content: '';
+	border-top: 5px solid;
+	margin: 5px;	
+}
 
-	div.divider::before,
-	div.divider::after {
-		flex: 1;
-		content: '';
-		border-top: 5px solid;
-		margin: 5px;	
-	}
+div.divider::before {
+	border-color: yellow; /* Change the color for the left side */
+}
 
-	div.divider::before {
-		border-color: yellow; /* Change the color for the left side */
-	}
+div.divider::after {
+	border-color: #00008B; /* Change the color for the right side */
+}
 
-	div.divider::after {
-		border-color: #00008B; /* Change the color for the right side */
-	}
+hr.div2{
+	order: 3px solid yellow;
+	border-radius: 0px;
+	width: 86%;
+}
 
-	hr.div2{
-		order: 3px solid yellow;
-		border-radius: 0px;
-		width: 86%;
-	}
-
-	h3.head3{
-		color: #00008B;
-		font-family:sans-serif;
-	}
+h3.head3{
+	color: #00008B;
+	font-family:sans-serif;
+}
 
 /*-------------------------------------------------------------------------------------------------------------*/
 /*SELECTION*/
@@ -222,271 +221,271 @@ form{
 /*-------------------------------------------------------------------------------------------------------------*/
 /*ETHICS*/
 button {
-position: relative;
-display: inline-block;
-cursor: pointer;
-outline: none;
-border: 0;
-vertical-align: middle;
-text-decoration: none;
-background: transparent;
-padding: 0;
-font-size: inherit;
-font-family: inherit;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
 }
 
 button.ethics {
-width: 12rem;
-height: auto;
+    width: 12rem;
+    height: auto;
 }
 
 button.ethics .circle {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-position: relative;
-display: block;
-margin: 0;
-width: 3rem;
-height: 3rem;
-background: #282936;
-border-radius: 1.625rem;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
 }
 
 button.ethics .circle .icon {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-position: absolute;
-top: 0;
-bottom: 0;
-margin: auto;
-background: #fff;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
 }
 
 button.ethics .circle .icon.arrow {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-left: 0.625rem;
-width: 1.125rem;
-height: 0.125rem;
-background: none;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
 }
 
 button.ethics .circle .icon.arrow::before {
-position: absolute;
-content: "";
-top: -0.29rem;
-right: 0.0625rem;
-width: 0.625rem;
-height: 0.625rem;
-border-top: 0.125rem solid #fff;
-border-right: 0.125rem solid #fff;
-transform: rotate(45deg);
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
 }
 
 button.ethics .button-text {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-padding: 0.75rem 0;
-margin: 0 0 0 1.85rem;
-color: #282936;
-font-weight: 700;
-line-height: 1.6;
-text-align: center;
-text-transform: uppercase;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 button:hover .circle {
-width: 100%;
+    width: 100%;
 }
 
 button:hover .circle .icon.arrow {
-background: #fff;
-transform: translate(1rem, 0);
+    background: #fff;
+    transform: translate(1rem, 0);
 }
 
 button:hover .button-text {
-color: #fff;
+    color: #fff;
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
 /*UTS*/
 button {
-position: relative;
-display: inline-block;
-cursor: pointer;
-outline: none;
-border: 0;
-vertical-align: middle;
-text-decoration: none;
-background: transparent;
-padding: 0;
-font-size: inherit;
-font-family: inherit;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
 }
 
 button.uts {
-width: 12rem;
-height: auto;
+    width: 12rem;
+    height: auto;
 }
 
 button.uts .circle {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-position: relative;
-display: block;
-margin: 0;
-width: 3rem;
-height: 3rem;
-background: #282936;
-border-radius: 1.625rem;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
 }
 
 button.uts .circle .icon {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-position: absolute;
-top: 0;
-bottom: 0;
-margin: auto;
-background: #fff;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
 }
 
 button.uts .circle .icon.arrow {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-left: 0.625rem;
-width: 1.125rem;
-height: 0.125rem;
-background: none;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
 }
 
 button.uts .circle .icon.arrow::before {
-position: absolute;
-content: "";
-top: -0.29rem;
-right: 0.0625rem;
-width: 0.625rem;
-height: 0.625rem;
-border-top: 0.125rem solid #fff;
-border-right: 0.125rem solid #fff;
-transform: rotate(45deg);
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
 }
 
 button.uts .button-text {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-padding: 0.75rem 0;
-margin: 0 0 0 1.85rem;
-color: #282936;
-font-weight: 700;
-line-height: 1.6;
-text-align: center;
-text-transform: uppercase;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 button:hover .circle {
-width: 100%;
+    width: 100%;
 }
 
 button:hover .circle .icon.arrow {
-background: #fff;
-transform: translate(1rem, 0);
+    background: #fff;
+    transform: translate(1rem, 0);
 }
 
 button:hover .button-text {
-color: #fff;
+    color: #fff;
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
 /*CONTEMP WORLD*/
 button {
-position: relative;
-display: inline-block;
-cursor: pointer;
-outline: none;
-border: 0;
-vertical-align: middle;
-text-decoration: none;
-background: transparent;
-padding: 0;
-font-size: inherit;
-font-family: inherit;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
 }
 
 button.cw {
-width: 12rem;
-height: auto;
+    width: 12rem;
+    height: auto;
 }
 
 button.cw .circle {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-position: relative;
-display: block;
-margin: 0;
-width: 3rem;
-height: 3rem;
-background: #282936;
-border-radius: 1.625rem;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
 }
 
 button.cw .circle .icon {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-position: absolute;
-top: 0;
-bottom: 0;
-margin: auto;
-background: #fff;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
 }
 
 button.cw .circle .icon.arrow {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-left: 0.625rem;
-width: 1.125rem;
-height: 0.125rem;
-background: none;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
 }
 
 button.cw .circle .icon.arrow::before {
-position: absolute;
-content: "";
-top: -0.29rem;
-right: 0.0625rem;
-width: 0.625rem;
-height: 0.625rem;
-border-top: 0.125rem solid #fff;
-border-right: 0.125rem solid #fff;
-transform: rotate(45deg);
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
 }
 
 button.cw .button-text {
-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-padding: 0.75rem 0;
-margin: 0 0 0 1.85rem;
-color: #282936;
-font-weight: 700;
-line-height: 1.6;
-text-align: center;
-text-transform: uppercase;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 button:hover .circle {
-width: 100%;
+    width: 100%;
 }
 
 button:hover .circle .icon.arrow {
-background: #fff;
-transform: translate(1rem, 0);
+    background: #fff;
+    transform: translate(1rem, 0);
 }
 
 button:hover .button-text {
-color: #fff;
+    color: #fff;
 }
 
 .logout-container {
