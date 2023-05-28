@@ -43,7 +43,7 @@ session_destroy();
 			<hr class="divider2">
 
 			<div align="center">
-				<button type="submit" class="submit-button">Register</button>
+				<button type="submit" class="btn">Register</button>
 			</div>
 
 			<hr class="divider3" align="center">

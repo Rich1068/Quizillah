@@ -26,21 +26,21 @@ input[type="password"]
     transition: all 0.3s ease;
 }
 
-div.submit-button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
+button.btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
-div.submit-button:hover {
-    background-color: #3e8e41;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-    transform: translate(2px, 2px);
+button.btn:hover {
+  background-color: #3e8e41;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translate(2px, 2px);
 }
 
 hr.divider{

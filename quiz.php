@@ -52,36 +52,96 @@ try {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Quiz</title>
+        <style>
+        form.ques {
+            background-color: #fff;
+            border: 0px solid #ccc;
+            border-radius: 45px;
+            padding: 10px;
+            margin: 0px;
+            max-width: 1085px; /* set a maximum width */
+            height: 650px;
+            background-image: url('https://lh3.googleusercontent.com/drive-viewer/AFGJ81oFCJykTM1tzAv5m5KJDd8VpE2h4GFvfJD94RRe8lJaOVV7fbSkxvBqW1mU4_Ari2BNUerx78_yfyCBVTSPOTmUh2qQ=s1600');
+            background-size: cover;
+            margin-top: 25px;
+        }
+        .bodi{
+            background-color: #4CAF50;
+        }
+        div.quiz{
+            display: flex;
+            align-items: center;
+        }
+
+        input[type="radio"] {
+            /* Move the radio circle to the right */
+            position: left;
+            margin-left: 400px;
+        }
+        .radio-container {
+            display: flex;
+            align-items: center;
+            font-size: 45px;
+        }
+
+        .radio-container input[type="radio"] {
+            margin-right: 100px;
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+            transform: scale(1.5);
+        }
+        .next {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            height: 50px;
+            width: 196px;
+            position: relative;
+            font-size: 20px;
+            position: absolute; 
+            top: 60%; 
+            left: 70%; 
+        }
+
+        .next:hover {
+            background-color: #3e8e41;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            transform: translate(2px, 2px);
+        }
+        .kwesyun{
+            font-size: 30px;
+        }
+        </style>
     </head>
-    <body>
+    <body class="bodi">
+        <div align="center">
+            <form method="POST" action="quiz.php" class="ques">
+                <div class="kwesyun">
+                    <h1 align="center">Question #<?php echo $question->getNumber(); ?></h1>
+                    <h2 style="color: blue" align="center"><?php echo $question->getQuestion(); ?></h2>
+                    <h4 style="color: blue" align="center">Choices</h4>
+                </div>
 
-        <h1>Analogy Questions</h1>
-
-        <h3>Instructions</h3>
-
-        <p style="color: gray">
-            There is a certain relationship between two given words on one side of : : and one word is given on another side of : : while another word is to be found from the given alternatives, having the same relation with this word as the words of the given pair bear. Choose the correct alternative.
-        </p>
-
-
-        <h1>Question #<?php echo $question->getNumber(); ?></h1>
-        <h2 style="color: blue"><?php echo $question->getQuestion(); ?></h2>
-        <h4 style="color: blue">Choices</h4>
-
-        <form method="POST" action="quiz.php">
-            <input type="hidden" name="number" value="<?php echo $question->getNumber();?>" />
-            <?php foreach ($question->getChoices() as $choice): ?>
-
-                <input
-                    type="radio"
-                    name="answer"
-                    value="<?php echo $choice->letter; ?>" />
-                    <?php echo $choice->letter; ?>)
-                <?php echo $choice->label; ?><br />
-
-            <?php endforeach; ?>
-                <input type="submit" value="Next">
-        </form>
+                    <input type="hidden" name="number" value="<?php echo $question->getNumber();?>" />
+                    <?php foreach ($question->getChoices() as $choice): ?>
+                            <div class="radio-container">
+                                <input type="radio" name="answer" value="<?php echo $choice->letter; ?>"/>
+                                <?php echo $choice->letter; ?>)
+                                <?php echo $choice->label; ?>
+                            </div>
+                <?php endforeach; ?>
+                <br>
+                <div align="center">
+                    <input type="submit" value="Next Question" class="next">
+                </div>
+            </div>
+            </form>
+        </div>
 
     </body>
 </html>
