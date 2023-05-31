@@ -12,310 +12,63 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
 
 
 ?>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Selection</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body class="bg">
+        <form method="POST" action="selection_post.php" id="selection" class="select">
 
-        form{
-            
-        }
-        /*ETHICS*/
-        button {
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-        outline: none;
-        border: 0;
-        vertical-align: middle;
-        text-decoration: none;
-        background: transparent;
-        padding: 0;
-        font-size: inherit;
-        font-family: inherit;
-        }
+            <div style="position: relative; display: inline-block;">
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qTLWWAMPBPKUk1AdEccp2yP-dLWOoqvVOxahMUjW-D6Sdg5TRJe8kbFVwEjMWmQ79X2ALTLBpdV5XfSF9Tvb_akU5i3A=s2560"
+                width="200" height="400">
+                <button type="submit" Name="topic" Value= "Contemporary_World" class="button_type1" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
+                    <span class="btn-txt">Contemporary World</span>
+                </button>
+            </div>
 
-        button.ethics {
-        width: 12rem;
-        height: auto;
-        }
+            <div style="position: relative; display: inline-block;">
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pgjbX1CIzXgLq1NvQQaoPgM63mvUvBKu-w9LWl8bckKjF-ttKlPHcet2UA3tEwgI-d-7eKQ8YZwcC2dxCZ7yqoqojxmQ=s2560"
+                width="200" height="400">
+                <button type="submit" name="topic" value="Ethics" class="button_type2" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
+                        <span class="btn-txt1">Ethics</span>
+                </button>
+            </div>
+                
+            <div style="position: relative; display: inline-block;">
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rWmQbDiizSHXpKZfN17926ZM6Wi0F2oFPjGjHamqy2jrBvANrWnw_YZlV05tnhcKBOqS8oEH7uUFPuTPkwgSlpSMJ_lw=s2560"
+                width="200" height="400">
+                <button type="submit" name="topic" value="UTS" class="button_type3" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
+                        <span class="btn-txt2">CCS06</span>
+                    </button>
+            </div>
 
-        button.ethics .circle {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        position: relative;
-        display: block;
-        margin: 0;
-        width: 3rem;
-        height: 3rem;
-        background: #282936;
-        border-radius: 1.625rem;
-        }
+            <div style="position: relative; display: inline-block;">
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rYMU5OZBFCxaQ6enilBLmpjgjBcVZxz2aCX8YmbmUpG8zv-HCSGLFwLl408pkj1tX7TJwsbmy8ZW1jhYgB7DIQ9puA=s2560"
+                width="200" height="400">
+                <button type="submit" name="topic" value="UTS" class="button_type4" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
+                        <span class="btn-txt3">ITE</span>
+                </button>
+            </div>
 
-        button.ethics .circle .icon {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        background: #fff;
-        }
+            <div style="position: relative; display: inline-block;">
+                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qJhhaKQzr38Y4mp5UbRab14uVHWjQOjQaeAC2zLwNntcbp_-3HBs6fVMYlbJgYFp7J9_kPHKyllssLAcnikGuZGFT3MA=s2560"
+                width="200" height="400">
+                <button type="submit" name="topic" value="UTS" class="button_type5" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
+                    <span class="btn-txt3">CCS05</span>
+                </button>
+            </div>
 
-        button.ethics .circle .icon.arrow {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        left: 0.625rem;
-        width: 1.125rem;
-        height: 0.125rem;
-        background: none;
-        }
 
-        button.ethics .circle .icon.arrow::before {
-        position: absolute;
-        content: "";
-        top: -0.29rem;
-        right: 0.0625rem;
-        width: 0.625rem;
-        height: 0.625rem;
-        border-top: 0.125rem solid #fff;
-        border-right: 0.125rem solid #fff;
-        transform: rotate(45deg);
-        }
+            <div align="center">
+                <a class="logout" href="login.php">LOGOUT</a>
+            </div>
 
-        button.ethics .button-text {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        padding: 0.75rem 0;
-        margin: 0 0 0 1.85rem;
-        color: #282936;
-        font-weight: 700;
-        line-height: 1.6;
-        text-align: center;
-        text-transform: uppercase;
-        }
-
-        button:hover .circle {
-        width: 100%;
-        }
-
-        button:hover .circle .icon.arrow {
-        background: #fff;
-        transform: translate(1rem, 0);
-        }
-
-        button:hover .button-text {
-        color: #fff;
-        }
-
-        /*UTS*/
-        button {
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-        outline: none;
-        border: 0;
-        vertical-align: middle;
-        text-decoration: none;
-        background: transparent;
-        padding: 0;
-        font-size: inherit;
-        font-family: inherit;
-        }
-
-        button.uts {
-        width: 12rem;
-        height: auto;
-        }
-
-        button.uts .circle {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        position: relative;
-        display: block;
-        margin: 0;
-        width: 3rem;
-        height: 3rem;
-        background: #282936;
-        border-radius: 1.625rem;
-        }
-
-        button.uts .circle .icon {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        background: #fff;
-        }
-
-        button.uts .circle .icon.arrow {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        left: 0.625rem;
-        width: 1.125rem;
-        height: 0.125rem;
-        background: none;
-        }
-
-        button.uts .circle .icon.arrow::before {
-        position: absolute;
-        content: "";
-        top: -0.29rem;
-        right: 0.0625rem;
-        width: 0.625rem;
-        height: 0.625rem;
-        border-top: 0.125rem solid #fff;
-        border-right: 0.125rem solid #fff;
-        transform: rotate(45deg);
-        }
-
-        button.uts .button-text {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        padding: 0.75rem 0;
-        margin: 0 0 0 1.85rem;
-        color: #282936;
-        font-weight: 700;
-        line-height: 1.6;
-        text-align: center;
-        text-transform: uppercase;
-        }
-
-        button:hover .circle {
-        width: 100%;
-        }
-
-        button:hover .circle .icon.arrow {
-        background: #fff;
-        transform: translate(1rem, 0);
-        }
-
-        button:hover .button-text {
-        color: #fff;
-        }
-
-        /*CONTEMP WORLD*/
-        button {
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-        outline: none;
-        border: 0;
-        vertical-align: middle;
-        text-decoration: none;
-        background: transparent;
-        padding: 0;
-        font-size: inherit;
-        font-family: inherit;
-        }
-
-        button.cw {
-        width: 12rem;
-        height: auto;
-        }
-
-        button.cw .circle {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        position: relative;
-        display: block;
-        margin: 0;
-        width: 3rem;
-        height: 3rem;
-        background: #282936;
-        border-radius: 1.625rem;
-        }
-
-        button.cw .circle .icon {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        background: #fff;
-        }
-
-        button.cw .circle .icon.arrow {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        left: 0.625rem;
-        width: 1.125rem;
-        height: 0.125rem;
-        background: none;
-        }
-
-        button.cw .circle .icon.arrow::before {
-        position: absolute;
-        content: "";
-        top: -0.29rem;
-        right: 0.0625rem;
-        width: 0.625rem;
-        height: 0.625rem;
-        border-top: 0.125rem solid #fff;
-        border-right: 0.125rem solid #fff;
-        transform: rotate(45deg);
-        }
-
-        button.cw .button-text {
-        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        padding: 0.75rem 0;
-        margin: 0 0 0 1.85rem;
-        color: #282936;
-        font-weight: 700;
-        line-height: 1.6;
-        text-align: center;
-        text-transform: uppercase;
-        }
-
-        button:hover .circle {
-        width: 100%;
-        }
-
-        button:hover .circle .icon.arrow {
-        background: #fff;
-        transform: translate(1rem, 0);
-        }
-
-        button:hover .button-text {
-        color: #fff;
-        }
-    </style>
-</head>
-<body>
-    <form method="POST" action="selection_post.php" id="selection">
-        <button type="submit" Name="topic" Value= "Contemporary_World" class="cw">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-                <span class="button-text">Contemporary World</span>
-        </button>
-
-        <button type="submit" name="topic" value="Ethics" class="ethics" > 
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-            
-                <span class="button-text">Ethics</span>
-            </button>
-            
-        <button type="submit" name="topic" value="UTS" class="uts">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-            
-                <span class="button-text">UTS</span>
-        
-        </button>
-
-            <a href="login.php">LOGOUT</a>
-    </form>
-</body>
+        </form>
+    </body>
 </html>

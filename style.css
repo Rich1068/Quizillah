@@ -1,0 +1,455 @@
+/*-----------------------------------------------------start--------------------------------------------------*/
+/*----------------------------------------------------REGISTER------------------------------------------------*/
+form.register {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    max-width: 700px; /* set a maximum width */
+    margin-left: 10px; /* center horizontally */
+    margin-right: auto;
+    height: 625px;
+}
+
+input[type="text"],
+input[type="password"] 
+{
+    padding: 5px;
+    border: 2px solid #00008B;	
+    border-radius: 20px;
+    margin-bottom: 10px;  
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 85%;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+button.btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button.btn:hover {
+  background-color: #3e8e41;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translate(2px, 2px);
+}
+
+hr.divider{
+    border: 3px solid yellow;
+    border-radius: 0px;
+    width: 86%;
+    margin-bottom: 30px; 
+}
+
+hr.divider2{
+    border: 3px solid #00008B;
+    border-radius: 0px;
+    width: 86%;
+}
+hr.divider3{
+    border: 3px solid #00008B;
+    border-radius: 0px;
+    width: 86%;
+    margin-bottom: 10px; 
+}
+
+hr.divider4{
+    border: 3px solid yellow;
+    border-radius: 0px;
+    width: 86%;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    padding: 16px;
+    font-size: .85rem;
+}
+
+.form-section a {
+    font-weight: bold;
+    color: #0066ff;
+    transition: color .3s ease;
+}
+div.about{
+    font-weight: bold;
+    color: yellow;
+    text-align: right;
+    margin-right: 100px;
+    transition: color .3s ease;
+}
+div.vl {
+    border-right: 20px solid #00008B;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    width: 30px;
+    z-index: 9999;
+    position: fixed;
+    margin-right: 70px;
+}
+
+div.vl1 {
+    border-right: 20px solid yellow;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    width: 30px;
+    z-index: 9999;
+    position: fixed;
+    margin-right: 30px;
+}
+
+body.reg {
+    background: orange;
+    font-family: Arial, sans-serif;
+    position: center;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------LOGIN---------------------------------------------------*/
+input.email[type="email"],
+input.pass[type="password"] 
+{
+    padding: 5px;
+    border: 2px solid #00008B;	
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 85%;
+    display: block;
+    transition: all 0.3s ease;
+}
+input.pass[type="password"]{
+	margin-bottom: 30px;
+}
+input.email[type="email"]{
+	margin-bottom: 5px;
+}
+
+button.login{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+	margin-bottom: 20px;
+}
+
+button.login:hover {
+    background-color: #3e8e41;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translate(2px, 2px);
+}	
+	
+div.container {
+	text-align: right;
+	display: flex;
+	width: 1000px;
+	height: 700px;
+	max-width: 99%;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 0;
+	overflow: hidden;
+	background-color: #ffffff25;
+	border-radius: 0px;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
+	border: 0.1px solid rgba(128, 128, 128, 0.178);
+}
+
+div.divider {
+	height: 20px;
+	border: 10px;
+	display: flex;
+	position: center;
+	width: 89%;
+	margin-left: 25px;
+}
+
+div.divider::before,
+div.divider::after {
+	flex: 1;
+	content: '';
+	border-top: 5px solid;
+	margin: 5px;	
+}
+
+div.divider::before {
+	border-color: yellow; /* Change the color for the left side */
+}
+
+div.divider::after {
+	border-color: #00008B; /* Change the color for the right side */
+}
+
+hr.div2{
+	order: 3px solid yellow;
+	border-radius: 0px;
+	width: 86%;
+}
+
+h3.head3{
+	color: #00008B;
+	font-family:sans-serif;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------SELCTION---------------------------------------------------*/
+form.select{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 500px;
+}
+body.bg{
+    background-color: #66ff99; /*lagay piksur or bg */
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------ETHICS---------------------------------------------------*/
+button.button_type2 {
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #3be5ff; /*BORDER COLOR*/
+    overflow: hidden;
+    border-radius: 30px;
+    color: #ffffff;             /*FONT COLOR AT EASE*/
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn-txt1 {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+  
+  .button_type2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #0f2fd1;  /*COLOR FILL UP THE BUTTON*/
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .button_type2:hover {
+    box-shadow: 1px 1px 200px #0041f4; /* SHADOW COLOR */
+    color: #fdfefb; /* FONT COLOR CHANGE COLOR WHEN HOVER*/
+    border: none;
+  }
+  
+  .button_type2:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------CCS06---------------------------------------------------*/
+button.button_type3 {
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #ff58e6;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn-txt2 {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+  
+  .button_type3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #b303aa;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .button_type3:hover {
+    box-shadow: 1px 1px 200px #b303aa;
+    color: #fff;
+    border: none;
+  }
+  
+  .button_type3:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  } 
+/*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------CONTEMP WORLD------------------------------------------------*/
+button.button_type1 {
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #ee6161;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn-txt {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+  
+  .button_type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #f10d0d;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .button_type1:hover {
+    box-shadow: 1px 1px 200px #f10d0d;
+    color: #fff;
+    border: none;
+  }
+  
+  .button_type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }
+/*-------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------LOGOUT------------------------------------------------*/
+a.logout{
+    margin-top: 200px;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------ITE---------------------------------------------------*/
+button.button_type4 {
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #f9e45f;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn-txt3 {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+  
+  .button_type4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #cd930b;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .button_type4:hover {
+    box-shadow: 1px 1px 200px #cd930b;
+    color: #fff;
+    border: none;
+  }
+  
+  .button_type4:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }
+  /*-------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------CCS05-------------------------------------------------*/
+button.button_type5 {
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #4df374;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn-txt4 {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+  
+  .button_type5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #08d073;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .button_type5:hover {
+    box-shadow: 1px 1px 200px #08d073;
+    color: #fff;
+    border: none;
+  }
+  
+  .button_type5:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }
