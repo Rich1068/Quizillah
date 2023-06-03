@@ -64,17 +64,22 @@ try {
             padding: 10px;
             margin: 0px;
             max-width: 1085px; /* set a maximum width */
+            width: 1085px;
             height: 650px;
             background-image: url('https://lh3.googleusercontent.com/drive-viewer/AFGJ81oFCJykTM1tzAv5m5KJDd8VpE2h4GFvfJD94RRe8lJaOVV7fbSkxvBqW1mU4_Ari2BNUerx78_yfyCBVTSPOTmUh2qQ=s1600');
             background-size: cover;
-            margin-top: 25px;
+            margin-top: 17px;
+            position: relative;
+            
         }
         .bodi{
-            background-color: #4CAF50;
+            background-color: #94ecf7;
+            position: relative;
         }
         div.quiz{
             display: flex;
             align-items: center;
+            
         }
 
         input[type="radio"] {
@@ -93,6 +98,7 @@ try {
             -ms-transform: scale(1.5); /* IE 9 */
             -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
             transform: scale(1.5);
+            
         }
         .next {
             background-color: #4CAF50;
@@ -105,11 +111,11 @@ try {
             transition: all 0.3s ease;
             height: 50px;
             width: 196px;
-            position: relative;
             font-size: 20px;
-            position: absolute; 
-            top: 60%; 
-            left: 70%; 
+            position: absolute;
+            left: 80%;
+            top: -10%;
+            z-index: 5;
         }
 
         .next:hover {
@@ -120,15 +126,63 @@ try {
         .kwesyun{
             font-size: 30px;
         }
+
+        .b_button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            height: 50px;
+            width: 196px;
+            font-size: 20px;
+            position: relative;
+            left: 22%;
+            top: 10%;
+            margin-top: 10px;
+        }
+
+        .b_button:hover {
+            background-color: #880808;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            transform: translate(2px, 2px);
+        }
+        .b_button > svg {
+            margin-right: 5px;
+            margin-left: -10px;
+            font-size: 20px;
+            transition: all 0.4s ease-in;
+            top: ;
+            height: 20;
+            width: 20;
+        }
+
+        .b_button:hover > svg {
+            font-size: 3em;
+            transform: translateX(-20px);
+        }
+
+
         </style>
     </head>
-    <form method="POST" action="back_button.php">
-    <input type="hidden" name="selected_answer" value="<?php echo isset($_SESSION['answers'][$number]) ? $_SESSION['answers'][$number] : ''; ?>" />   
-    <button type="submit" name="back" value="true">Back</button>
-    </form>
-    <!-- <form method="POST" action="back_button.php">
-    <input type="submit" value="back">
-     -->
+    <div>
+        <form method="POST" action="back_button.php" class="rel">
+            <input type="hidden" name="selected_answer" value="<?php echo isset($_SESSION['answers'][$number]) ? $_SESSION['answers'][$number] : ''; ?>" />   
+            
+            <button type="submit" name="back" value="true" class="b_button">  
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" 
+                viewBox="0 0 16 16"> 
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 
+                .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                </svg>
+                    <span>Back</span>
+            </button>
+
+        </form>
+    </div>
     <body class="bodi">
         <div align="center">
             <form method="POST" action="quiz.php" class="ques">
@@ -148,14 +202,13 @@ try {
                                 <?php echo $choice->label; ?>
                             </div>
                 <?php endforeach; ?>
-                <br>
-                <div align="center">
-                    <input type="submit" value="Next Question" class="next">
-                </div>
-            </div>
+                    <?php if ($_SESSION["current_question_number"] < 10){ 
+                        echo "<input type='submit' value='Next Question' class='next'>";
+                    } else {
+                        echo "<input type='submit' value='Finish' class='next'>";
+                    }?>
             </form>
         </div>
-
     </body>
 </html>
 

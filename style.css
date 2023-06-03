@@ -209,15 +209,7 @@ h3.head3{
 
 /*-------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------SELCTION---------------------------------------------------*/
-form.select{
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 0 auto;
-    max-width: 1020px;
-    height: 500px;
-}
+
 body.bg{
     background-color: #66ff99; /*lagay piksur or bg */
 }

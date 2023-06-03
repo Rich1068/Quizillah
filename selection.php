@@ -21,10 +21,16 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
         <link rel="stylesheet" href="style.css">
     </head>
     
-    <body class="bg">
-        <form method="POST" action="selection_post.php" id="selection" class="select">
-
-            <div style="position: relative; display: inline-block;">
+    <body class="bg" align="center">
+     <div>   
+     <!-- <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81plKcfkmbHst7nWroCaJaMaMIGHym8TZ7H9WiQ_AvDpzKsRiNV3biT0oueitHBPr7fP8L-uuDhnuxcmR3GykTObE3pDMg=s1600"
+                width="1029" height="500" >  -->
+        <form method="POST" action="selection_post.php" id="selection" >
+        <div style="position: absolute; position: absolute; top: 0%; left: 20.695%;">
+        <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81plKcfkmbHst7nWroCaJaMaMIGHym8TZ7H9WiQ_AvDpzKsRiNV3biT0oueitHBPr7fP8L-uuDhnuxcmR3GykTObE3pDMg=s1600"
+                width="1100" height="550" >
+        </div>
+            <div style="position: relative; display: inline-block;margin-top:55px;" >
                 <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qTLWWAMPBPKUk1AdEccp2yP-dLWOoqvVOxahMUjW-D6Sdg5TRJe8kbFVwEjMWmQ79X2ALTLBpdV5XfSF9Tvb_akU5i3A=s2560"
                 width="200" height="400">
                 <button type="submit" Name="topic" Value= "Contemporary_World" class="button_type1" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
@@ -70,5 +76,6 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
             </div>
 
         </form>
+</div>
     </body>
 </html>
