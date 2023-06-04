@@ -5,7 +5,6 @@ require "vendor/autoload.php";
 session_start();
 use App\QuestionManager;
 
-
 $score = null;
 $Ans = null;
 try {
@@ -21,6 +20,13 @@ try {
     echo '<h1>An error occurred:</h1>';
     echo '<p>' . $e->getMessage() . '</p>';
     exit;
+}
+
+//save score button
+if (isset($_SESSION['buttonClicked']) && $_SESSION['buttonClicked']) {
+    $disableButton = true;
+} else {
+    $disableButton = false;
 }
 ?>
 
@@ -46,7 +52,7 @@ try {
 </form>
 
 <form method="POST" action="save_score.php" >
-<button type="submit">Save Score</button>
+<button type="submit" name="button" <?php if ($disableButton) echo 'disabled'; ?>>Save Score</button>
 </form>
 
 <form method="POST" action="leaderboard.php" >
@@ -56,5 +62,16 @@ try {
 <form method="POST" action="profile.php" >
 <button type="submit">Profile</button>
 </form>
-</html>
 
+</html>
+<?php 
+var_dump($_SESSION);
+?>
+
+<script>
+//save score button scripts
+  function disableButton() {
+        var button = document.querySelector('button[name="button"]');
+        button.disabled = true;
+    }
+</script>
