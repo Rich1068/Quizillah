@@ -4,12 +4,12 @@ require "vendor/autoload.php";
 $_SESSION['is_quiz_started'] = false;
 unset($_SESSION['Subject']);
 unset($_SESSION['answers']);
+unset($_SESSION['buttonClicked']);
 $_SESSION['current_question_number'] = 1;
 
 if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
     header('Location: login.php');
 }
-
 
 ?>
 <!DOCTYPE html>
