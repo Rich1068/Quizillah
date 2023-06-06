@@ -18,7 +18,7 @@ session_destroy();
 		<form action="save-registration.php" method="POST" class="register">
 
 			<div align="center">
-				<img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81ry9dp570dPojWLZoz2qawojbeFVVyYBHJSDCcdEohzGP3FLzni6OsoDdVWecSP2lstaPT_OHXM3bM-3NkisU3LFJEN=s1600" 
+				<img src="images/Logo.png" 
 				alt="quizillah" width="300" height="150">
 			</div>
 
@@ -55,10 +55,11 @@ session_destroy();
 		</form>
 			<div class="vl"></div>
 			<div class="vl1"></div>
-			<div class="about">
-				<a href="login.php">About us</a> 
-			</div>
+			
 	</body>
+	<div class="about">
+				<a href="about_us.php" style="color: yellow;font-size: 25px;">About us</a> 
+	</div>
 </html>
 
         

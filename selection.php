@@ -74,7 +74,7 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
             <div align="center">
                 <a class="logout" href="login.php">LOGOUT</a>
             </div>
-
+            
         </form>
 </div>
     </body>

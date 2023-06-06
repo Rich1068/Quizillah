@@ -1,15 +1,16 @@
 /*-----------------------------------------------------start--------------------------------------------------*/
 /*----------------------------------------------------REGISTER------------------------------------------------*/
 form.register {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 20px;
+  background-image: url("images/MainFrame_register.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
     padding: 10px;
     margin: 20px;
-    max-width: 700px; /* set a maximum width */
+    max-width: 900px; /* set a maximum width */
     margin-left: 10px; /* center horizontally */
     margin-right: auto;
-    height: 625px;
+    height: 800px;
 }
 
 input[type="text"],
@@ -109,9 +110,8 @@ div.vl1 {
 }
 
 body.reg {
-    background: orange;
+  background-image: url("images/BACKGROUND_register.png");
     font-family: Arial, sans-serif;
-    position: center;
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/

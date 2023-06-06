@@ -63,6 +63,7 @@ if (isset($_SESSION['buttonClicked']) && $_SESSION['buttonClicked']) {
 <button type="submit">Profile</button>
 </form>
 
+<a href="about_us.php">About us</a>
 </html>
 <?php 
 var_dump($_SESSION);

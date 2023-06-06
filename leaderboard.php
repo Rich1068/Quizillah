@@ -4,7 +4,7 @@ require "config.php";
 use App\Score;
 
 if (!isset($_SESSION['dropdown'])) {
-  $_SESSION['dropdown'] = 'Contemporary_World'; // Set default value
+  $_SESSION['dropdown'] = 'Contemporary_World'; 
 }
 $selectedSubject = $_SESSION['dropdown'];
 ?>

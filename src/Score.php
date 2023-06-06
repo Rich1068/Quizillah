@@ -12,7 +12,7 @@ class Score
 		
 		    try {
 			    $sql = "
-				    INSERT INTO quiz (username, quiz, score, id)
+				    INSERT INTO quiz (username, quiz, score, user_id)
 				    VALUES ('$username', '$quiz', '$score', '$id')
 			    ";
 
