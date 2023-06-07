@@ -136,7 +136,8 @@ class User
 		try {
 			$sql = "SELECT username, 
 			quiz, 
-			score 
+			score,
+			saved_at
 			FROM quiz
 			WHERE username = '$user'
 			ORDER BY quiz

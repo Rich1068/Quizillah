@@ -13,13 +13,22 @@ if (isset($_SESSION['is_logged_in'])) {
 <!DOCTYPE html>
 <html>
 	<head>
+		<style>
+		.about_us{
+			position:fixed;
+    		bottom:0;
+    		right:0;
+			font-size: 25px;
+			margin: 10px;
+		}
+		</style>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Login</title>
 		<link rel="stylesheet" href="style.css">	
 	</head>
 	
-	<body>
+	<body class="login_body">
 		<div class="container">
 			<form action="attempt-login.php" method="POST">
 				<div align="center">
@@ -27,8 +36,8 @@ if (isset($_SESSION['is_logged_in'])) {
 						alt="quizillah" width="500" height="245">
 				</div>
 				<h3 class="head3" align="center">Login Page</h3>
-				<div align="center">
-					<input type="email" name="email" placeholder="email@address.com" class="email"/>	
+				<div align="left">
+					<input type="email" name="email" placeholder="email@address.com" class="email" size="50"/>	
 				</div>
 
 				<div class="divider"> </div>
@@ -49,5 +58,6 @@ if (isset($_SESSION['is_logged_in'])) {
 				</div>
 			</form>
 		</div>
+		<a href="about_us.php" class="about_us"><b>ABOUT US</b></a>	
 	</body>
 </html>

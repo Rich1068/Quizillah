@@ -33,10 +33,13 @@ class Score
 			try {
 				$sql = "SELECT username, 
 				quiz, 
-				score 
+				score,
+				saved_at 
 				FROM quiz
 				WHERE quiz = '$quiz'
+				GROUP BY username
 				ORDER BY score DESC
+				limit 100
 				";
 				$statement = $conn->prepare($sql);
 				$statement->execute();

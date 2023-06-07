@@ -10,6 +10,7 @@ echo "<tr>";
     echo "<th>Username</th>";
     echo "<th>Subject</th>";
     echo "<th>Score</th>";
+    echo "<th>Saved_at</th>";
 echo "</tr>";
 foreach($table as $data){
     echo "<tr>";
