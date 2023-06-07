@@ -233,6 +233,7 @@ if (isset($_SESSION['buttonClicked']) && $_SESSION['buttonClicked']) {
   text-align: left;
   background: #423880;
   font-size: 40px;
+  display: flex;
   }
   img {
     top: 2%;
@@ -244,11 +245,9 @@ if (isset($_SESSION['buttonClicked']) && $_SESSION['buttonClicked']) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Quiz</title>
 </head>
+
 <?php if ($score < 5): ?>
-
-
 <div class="header">
-
 <h2>Better Luck Next Time <?php echo $_SESSION['user']['username'] ?>! <br></h2>
 </div>
 <?php elseif ($score >= 5 && $score <= 8): ?>
@@ -258,9 +257,9 @@ if (isset($_SESSION['buttonClicked']) && $_SESSION['buttonClicked']) {
 <?php else: ?>
 <div class="header">
 <h2>Congratulations <?php echo $_SESSION['user']['username'] ?>!</h2>
-<img src="images/logo_bw.png" alt="quizillah" width="400" height="150">
 </div>
 <?php endif; ?>
+<img src="images/logo_bw.png" alt="quizillah" width="400" height="150">
 
 <body>
 	

@@ -24,10 +24,6 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
     <body class="bg" align="center">
      <div>   
         <form method="POST" action="selection_post.php" id="selection" >
-        <div style="position: absolute; position: absolute; top: 0%; left: 20.695%;">
-        <img src="images/SelectionFrame.png"
-                width="1100" height="550" >
-        </div>
             <div style="position: relative; display: inline-block;margin-top:55px;" >
                 <img src="images/CW_Selection.png"
                 width="200" height="400">
