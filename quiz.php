@@ -66,7 +66,7 @@ try {
             max-width: 1085px; /* set a maximum width */
             width: 1085px;
             height: 650px;
-            background-image: url('https://lh3.googleusercontent.com/drive-viewer/AFGJ81oFCJykTM1tzAv5m5KJDd8VpE2h4GFvfJD94RRe8lJaOVV7fbSkxvBqW1mU4_Ari2BNUerx78_yfyCBVTSPOTmUh2qQ=s1600');
+            background-image: url('images/QuizFrame.png');
             background-size: cover;
             margin-top: 17px;
             position: relative;

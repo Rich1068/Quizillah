@@ -23,15 +23,13 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
     
     <body class="bg" align="center">
      <div>   
-     <!-- <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81plKcfkmbHst7nWroCaJaMaMIGHym8TZ7H9WiQ_AvDpzKsRiNV3biT0oueitHBPr7fP8L-uuDhnuxcmR3GykTObE3pDMg=s1600"
-                width="1029" height="500" >  -->
         <form method="POST" action="selection_post.php" id="selection" >
         <div style="position: absolute; position: absolute; top: 0%; left: 20.695%;">
-        <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81plKcfkmbHst7nWroCaJaMaMIGHym8TZ7H9WiQ_AvDpzKsRiNV3biT0oueitHBPr7fP8L-uuDhnuxcmR3GykTObE3pDMg=s1600"
+        <img src="images/SelectionFrame.png"
                 width="1100" height="550" >
         </div>
             <div style="position: relative; display: inline-block;margin-top:55px;" >
-                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qTLWWAMPBPKUk1AdEccp2yP-dLWOoqvVOxahMUjW-D6Sdg5TRJe8kbFVwEjMWmQ79X2ALTLBpdV5XfSF9Tvb_akU5i3A=s2560"
+                <img src="images/CW_Selection.png"
                 width="200" height="400">
                 <button type="submit" Name="topic" Value= "Contemporary_World" class="button_type1" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
                     <span class="btn-txt">Contemporary World</span>
@@ -39,7 +37,7 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
             </div>
 
             <div style="position: relative; display: inline-block;">
-                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pgjbX1CIzXgLq1NvQQaoPgM63mvUvBKu-w9LWl8bckKjF-ttKlPHcet2UA3tEwgI-d-7eKQ8YZwcC2dxCZ7yqoqojxmQ=s2560"
+                <img src="images/ethics_selection.png"
                 width="200" height="400">
                 <button type="submit" name="topic" value="Ethics" class="button_type2" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
                         <span class="btn-txt1">Ethics</span>
@@ -47,7 +45,7 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
             </div>
                 
             <div style="position: relative; display: inline-block;">
-                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rWmQbDiizSHXpKZfN17926ZM6Wi0F2oFPjGjHamqy2jrBvANrWnw_YZlV05tnhcKBOqS8oEH7uUFPuTPkwgSlpSMJ_lw=s2560"
+                <img src="images/CCS06_Select.png"
                 width="200" height="400">
                 <button type="submit" name="topic" value="UTS" class="button_type3" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
                         <span class="btn-txt2">CCS06</span>
@@ -55,7 +53,7 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
             </div>
 
             <div style="position: relative; display: inline-block;">
-                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rYMU5OZBFCxaQ6enilBLmpjgjBcVZxz2aCX8YmbmUpG8zv-HCSGLFwLl408pkj1tX7TJwsbmy8ZW1jhYgB7DIQ9puA=s2560"
+                <img src="images/ITE_SELECTION.png"
                 width="200" height="400">
                 <button type="submit" name="topic" value="UTS" class="button_type4" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
                         <span class="btn-txt3">ITE</span>
@@ -63,7 +61,7 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
             </div>
 
             <div style="position: relative; display: inline-block;">
-                <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qJhhaKQzr38Y4mp5UbRab14uVHWjQOjQaeAC2zLwNntcbp_-3HBs6fVMYlbJgYFp7J9_kPHKyllssLAcnikGuZGFT3MA=s2560"
+                <img src="images/infoman_selection.png"
                 width="200" height="400">
                 <button type="submit" name="topic" value="UTS" class="button_type5" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
                     <span class="btn-txt3">CCS05</span>

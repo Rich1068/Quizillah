@@ -23,7 +23,7 @@ if (isset($_SESSION['is_logged_in'])) {
 		<div class="container">
 			<form action="attempt-login.php" method="POST">
 				<div align="center">
-					<img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81ry9dp570dPojWLZoz2qawojbeFVVyYBHJSDCcdEohzGP3FLzni6OsoDdVWecSP2lstaPT_OHXM3bM-3NkisU3LFJEN=s1600" 
+					<img src="images/Logo.png" 
 						alt="quizillah" width="500" height="245">
 				</div>
 				<h3 class="head3" align="center">Login Page</h3>

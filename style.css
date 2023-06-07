@@ -88,7 +88,7 @@ div.about{
     transition: color .3s ease;
 }
 div.vl {
-    border-right: 20px solid #00008B;
+    border-right: 20px solid yellow;
     height: 100vh;
     top: 0;
     right: 0;
@@ -99,7 +99,7 @@ div.vl {
 }
 
 div.vl1 {
-    border-right: 20px solid yellow;
+    border-right: 20px solid white;
     height: 100vh;
     top: 0;
     right: 0;
