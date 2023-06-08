@@ -25,6 +25,7 @@ input[type="password"]
     width: 85%;
     display: block;
     transition: all 0.3s ease;
+    font-size: 20px;
 }
 
 button.btn {
@@ -36,6 +37,7 @@ button.btn {
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
+  font-size: 20px;
 }
 
 button.btn:hover {
@@ -79,6 +81,7 @@ hr.divider4{
     font-weight: bold;
     color: #0066ff;
     transition: color .3s ease;
+    font-size: 15px;
 }
 div.about{
     font-weight: bold;
@@ -112,6 +115,7 @@ div.vl1 {
 body.reg {
   background-image: url("images/BACKGROUND_register.png");
     font-family: Arial, sans-serif;
+    
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
@@ -127,7 +131,7 @@ input.pass[type="password"]
     width: 100%;
     display: block;
     transition: all 0.3s ease;
-    font-size: 25px;
+    font-size: 20px;
 }
 input.pass[type="password"]{
 	margin-bottom: 30px;
@@ -168,7 +172,7 @@ div.container {
 	overflow: hidden;
 	background-color: transparent;
 	border-radius: 0px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 div.divider {

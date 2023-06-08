@@ -43,7 +43,7 @@ if (isset($_SESSION['is_logged_in'])) {
 				<div class="divider"> </div>
 
 				<div align="center">
-					<input type="password" name="password" class="pass"/>	
+					<input type="password" name="password" placeholder="password" class="pass"/>	
 				</div>
 
 				<div align="center">

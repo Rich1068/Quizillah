@@ -45,13 +45,14 @@ if (isset($_SESSION['buttonClicked']) && $_SESSION['buttonClicked']) {
     div.score {
     border-radius: 25px;
     background-color: white;
-	width: 500px;
-	height: 700px;
-	max-width: 99%;
+    width: 500px;
+    height: 700px;
+    max-width: 99%;
     margin-left: 110px;
     margin-top: 20px;
-	position: relative;
+	  position: relative;
     padding: 10px;
+
     text-align: center;
     overflow:hidden;
     border: 5px lightcyan solid;
@@ -232,12 +233,12 @@ if (isset($_SESSION['buttonClicked']) && $_SESSION['buttonClicked']) {
   padding: 1px;
   text-align: left;
   background: #423880;
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
   }
   img {
-    top: 2%;
-    left: 77%;
+    top: 1%;
+    left: 75%;
     position: absolute;
   }
     </style>
@@ -268,13 +269,15 @@ if (isset($_SESSION['buttonClicked']) && $_SESSION['buttonClicked']) {
     <div class="sc">
     Score: <?php echo '<span style="color:blue;">' . $score . '</span>';?> out of <?php echo $manager->getQuestionSize();?> items<br>
     </div>
-    Your Answers: <br>
+    <div style="display:inline-block; text-align: left;">
+    Your Answers: <br><br>
     <?php $Ans = $manager->showAnswer($_SESSION['answers']);?>
+</div>
 <br>
 
 <!-- Return Selection -->
 <form method="POST" action="selection.php" >
-<button type="submit" class="select" style="position: absolute; top: 90%; left: 25%; transform: translate(-50%, -50%);">
+<button type="submit" class="select" style="position: absolute; top: 95%; left: 25%; transform: translate(-50%, -50%);">
 <span class="btn-txt">
 Return to Selection
 </span>
@@ -284,7 +287,7 @@ Return to Selection
 <!-- Save Score -->
 <?php if (!isset($_SESSION["buttonClicked"])): ?>
 <form method="POST" action="save_score.php" >
-<button type="submit"  name="button" class="save" style="position: absolute; top: 80%; left: 70%; transform: translate(-50%, -50%);">
+<button type="submit"  name="button" class="save" style="position: absolute; top: 85%; left: 70%; transform: translate(-50%, -50%);">
 <span class="btn-txt1">
 Save Score
 </span>
@@ -292,7 +295,7 @@ Save Score
 </form>
 <?php else: ?>
 <form method="POST" action="save_score.php" >
-<button type="submit"  name="button" class="donesave" style="position: absolute; top: 80%; left: 70%; transform: translate(-50%, -50%);" <?php if ($disableButton) echo 'disabled'; ?>>
+<button type="submit"  name="button" class="donesave" style="position: absolute; top: 85%; left: 70%; transform: translate(-50%, -50%);" <?php if ($disableButton) echo 'disabled'; ?>>
 <span class="btn-txt1">
 Save Score
 </span>
@@ -302,7 +305,7 @@ Save Score
 
 <!-- Leaderboards -->
 <form method="POST" action="leaderboard.php" >
-<button type="submit" class="lb" style="position: absolute; top: 80%; left: 25%; transform: translate(-50%, -50%);">
+<button type="submit" class="lb" style="position: absolute; top: 85%; left: 25%; transform: translate(-50%, -50%);">
 <span class="btn-txt2">
 Leaderboards
 </span>
@@ -314,7 +317,7 @@ Leaderboards
 
 <!-- Profile -->
 <form method="POST" action="profile.php" >
-<button type="submit" class="profile" style="position: absolute; top: 90%; left: 70%; transform: translate(-50%, -50%);">
+<button type="submit" class="profile" style="position: absolute; top: 95%; left: 70%; transform: translate(-50%, -50%);">
 <span class="btn-txt3">
 Profile
 </span>

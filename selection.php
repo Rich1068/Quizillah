@@ -43,7 +43,7 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
             <div style="position: relative; display: inline-block;">
                 <img src="images/CCS06_Select.png"
                 width="200" height="400">
-                <button type="submit" name="topic" value="UTS" class="button_type3" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
+                <button type="submit" name="topic" value="Ccs06" class="button_type3" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
                         <span class="btn-txt2">CCS06</span>
                     </button>
             </div>
@@ -51,7 +51,7 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
             <div style="position: relative; display: inline-block;">
                 <img src="images/ITE_SELECTION.png"
                 width="200" height="400">
-                <button type="submit" name="topic" value="UTS" class="button_type4" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
+                <button type="submit" name="topic" value="Ite" class="button_type4" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
                         <span class="btn-txt3">ITE</span>
                 </button>
             </div>
@@ -59,7 +59,7 @@ if (!isset($_SESSION['is_logged_in']) || !$_SESSION['is_logged_in']) {
             <div style="position: relative; display: inline-block;">
                 <img src="images/infoman_selection.png"
                 width="200" height="400">
-                <button type="submit" name="topic" value="UTS" class="button_type5" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
+                <button type="submit" name="topic" value="Ccs05" class="button_type5" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
                     <span class="btn-txt3">CCS05</span>
                 </button>
             </div>

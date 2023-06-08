@@ -50,7 +50,7 @@ session_destroy();
 			<hr class="divider4" align="center">
 
 			<div class="form-section" align="center">
-				<p>Have an account? <a href="login.php">Log in</a> </p>
+				<p style="font-size: 15px;">Have an account? <a href="login.php">Log in</a> </p>
 			</div>
 		</form>
 			<div class="vl"></div>

@@ -59,7 +59,7 @@ try {
         <style>
         form.ques {
             background-color: #fff;
-            border: 0px solid #ccc;
+
             border-radius: 45px;
             padding: 10px;
             margin: 0px;
@@ -72,9 +72,15 @@ try {
             position: relative;
             
         }
-        .bodi{
-            background-color: #94ecf7;
+        .bodiCw{
+            background-color: #596995;
             position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .bodiCcs05{
+            background-color: white;
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
         }
         div.quiz{
             display: flex;
@@ -85,20 +91,21 @@ try {
         input[type="radio"] {
             /* Move the radio circle to the right */
             position: left;
-            margin-left: 400px;
+            margin-left: 350px;
         }
         .radio-container {
             display: flex;
             align-items: center;
-            font-size: 45px;
+            font-size: 30px;
+            line-height: 2;
         }
 
         .radio-container input[type="radio"] {
-            margin-right: 100px;
+            margin-right: 70px;
             -ms-transform: scale(1.5); /* IE 9 */
             -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
             transform: scale(1.5);
-            
+
         }
         .next {
             background-color: #4CAF50;
@@ -124,7 +131,7 @@ try {
             transform: translate(2px, 2px);
         }
         .kwesyun{
-            font-size: 30px;
+            font-size: 25px;
         }
 
         .b_button {
@@ -139,10 +146,11 @@ try {
             height: 50px;
             width: 196px;
             font-size: 20px;
-            position: relative;
-            left: 22%;
-            top: 10%;
+            position: absolute;
+            left: 19.5%;
+            top: -0.6%;
             margin-top: 10px;
+            z-index: 1;
         }
 
         .b_button:hover {
@@ -164,7 +172,10 @@ try {
             font-size: 3em;
             transform: translateX(-20px);
         }
-
+        h1 {
+            font-size: 40px;
+            color: white;
+        }
 
         </style>
     </head>
@@ -183,17 +194,22 @@ try {
 
         </form>
     </div>
-    <body class="bodi">
+    <?php if ($_SESSION['Subject'] === 'Contemporary_World'): ?>
+    <body class="bodiCw">
+    <?php else:  ?>
+    <body class="bodiCcs05">
+    <?php endif; ?>
+       
         <div align="center">
+        <h1 align="center"><?php echo $question->getNumber(); ?></h1> 
             <form method="POST" action="quiz.php" class="ques">
+            
                 <div class="kwesyun">
-                    <h1 align="center">Question #<?php echo $question->getNumber(); ?></h1>
-                    <h2 style="color: blue" align="center"><?php echo $question->getQuestion(); ?></h2>
-                    <h4 style="color: blue" align="center">Choices</h4>
+                    <h3 style="color: black" align="center" ><?php echo $question->getQuestion(); ?></h3><hr>
                 </div>
 
                 <input type="hidden" name="current_question_number" value="<?php echo $number; ?>" />
-
+                    <br><br><br><br>
                     <input type="hidden" name="number" value="<?php echo $question->getNumber();?>" />
                     <?php foreach ($question->getChoices() as $choice): ?>
                             <div class="radio-container">

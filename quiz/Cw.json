@@ -1,0 +1,333 @@
+[
+{
+    "number": 1,
+    "question": "This popular political pamphlet is considered the origins of the communist system of government is called the?",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Communist Manifesto"
+        },
+        {
+            "letter": "b",
+            "label": "Proletariat"
+        },
+        {
+            "letter": "c",
+            "label": "Provocation"
+        },
+        {
+            "letter": "d",
+            "label": "Communism"
+        }
+    ]
+},
+{
+    "number": 2,
+    "question": "In Karl Marx's Communist Manifesto, which group of people is to rise up and lead the government?",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Property Exchange Law"
+        },
+        {
+            "letter": "b",
+            "label": "Protest"
+        },
+        {
+            "letter": "c",
+            "label": "Proletariat"
+        },
+        {
+            "letter": "d",
+            "label": "Protection of Human Rights"
+        }
+    ]
+},
+{
+    "number": 3,
+    "question": "Which of these policies are used by both a communist economy and capitalistic democracy?",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "income tax based on wealth"
+        },
+        {
+            "letter": "b",
+            "label": "Income tax based on status"
+        },
+        {
+            "letter": "c",
+            "label": "taxes should be normalized"
+        },
+        {
+            "letter": "d",
+            "label": "taxes should be regulated"
+        }
+    ]
+},
+{
+    "number": 4,
+    "question": "increased interconnectedness and interdependence of people and countries?",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Global Market"
+        },
+        {
+            "letter": "b",
+            "label": "Global world"
+        },
+        {
+            "letter": "c",
+            "label": "Global City"
+        },
+        {
+            "letter": "d",
+            "label": "Globalization"
+        }
+    ]
+},
+{
+    "number": 5,
+    "question": "year when globalization was first employed according to the Oxford dictionary.",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "1919"
+        },
+        {
+            "letter": "b",
+            "label": "1920s"
+        },
+        {
+            "letter": "c",
+            "label": "1930s"
+        },
+        {
+            "letter": "d",
+            "label": "1929"
+        }
+    ]
+},
+{
+    "number": 6,
+    "question": "coined the term global village",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Marshall McLuhan"
+        },
+        {
+            "letter": "b",
+            "label": "Karl Marx"
+        },
+        {
+            "letter": "c",
+            "label": "Albert Eisnten"
+        },
+        {
+            "letter": "d",
+            "label": "Peter Sutherland"
+        }
+    ]
+},
+{
+    "number": 7,
+    "question": "Father Of Globalization?",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Marshall McLuhan"
+        },
+        {
+            "letter": "b",
+            "label": "Karl Marx"
+        },
+        {
+            "letter": "c",
+            "label": "Albert Eisnten"
+        },
+        {
+            "letter": "d",
+            "label": "Peter Sutherland"
+        }
+    ]
+},
+{
+    "number": 8,
+    "question": "Founder Of WTO",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Marshall McLuhan"
+        },
+        {
+            "letter": "b",
+            "label": "Karl Marx"
+        },
+        {
+            "letter": "c",
+            "label": "Albert Eisnten"
+        },
+        {
+            "letter": "d",
+            "label": "Peter Sutherland"
+        }
+    ]
+},
+{
+    "number": 9,
+    "question": "His extensive body of work on globalization made him one of the most influential scholars working in the field of global studies?",
+  "choices": [
+        {
+            "letter": "a",
+            "label": "Abraham Lincoln"
+        },
+        {
+            "letter": "b",
+            "label": "Jose Rizal"
+        },
+        {
+            "letter": "c",
+            "label": "Manfred Steger"
+        },
+        {
+            "letter": "d",
+            "label": "Peter Sutherland"
+        }
+    ]
+},
+{
+    "number": 10,
+    "question": "to increase fast flows of goods, services , finance , people , ideas across borders.?",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Opening of borders"
+        },
+        {
+            "letter": "b",
+            "label": "Manifesting the brant line"
+        },
+        {
+            "letter": "c",
+            "label": "Boats"
+        },
+        {
+            "letter": "d",
+            "label": "Planes are made"
+        }
+    ]
+},
+{
+    "number": 11,
+    "question": "the first person to utter the word globalization?",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Theodor Levith"
+        },
+        {
+            "letter": "b",
+            "label": "Theodore Levitt"
+        },
+        {
+            "letter": "c",
+            "label": "Peter Sutherland"
+        },
+        {
+            "letter": "d",
+            "label": "Peter Suthisland"
+        }
+    ]  
+},
+{
+    "number": 12,
+    "question": "The biggest contribution during Globalization 3.0?",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Electric Cars"
+        },
+        {
+            "letter": "b",
+            "label": "Internet"
+        },
+        {
+            "letter": "c",
+            "label": "AI"
+        },
+        {
+            "letter": "d",
+            "label": "Social Media"
+        }
+    ]
+},
+{
+    "number": 13,
+    "question": "called themselves Hellenes and their land was Hellas?",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Norwayan Vikings"
+        },
+        {
+            "letter": "b",
+            "label": "Greek Civilization"
+        },
+        {
+            "letter": "c",
+            "label": "Egyptians"
+        },
+        {
+            "letter": "d",
+            "label": "British Empire"
+        }
+    ]
+},
+{
+    "number": 14,
+    "question": "Human invention considered the dividing point between prehistoric and historic times",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Driving"
+        },
+        {
+            "letter": "b",
+            "label": "Dancing"
+        },
+        {
+            "letter": "c",
+            "label": "Singing"
+        },
+        {
+            "letter": "d",
+            "label": "Writing"
+        }
+    ]
+},
+{
+    "number": 15,
+    "question": "located primarily along the Nile River (allowed successful agriculture and commerce)",
+    "choices": [
+        {
+            "letter": "a",
+            "label": "Norwayan Vikings"
+        },
+        {
+            "letter": "b",
+            "label": "Greek Civilization"
+        },
+        {
+            "letter": "c",
+            "label": "Egyptians"
+        },
+        {
+            "letter": "d",
+            "label": "British Empire"
+        }
+    ]
+}
+
+]

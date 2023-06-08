@@ -1,0 +1,332 @@
+[
+    {
+        "number": 1,
+        "question": "It describes a static or physical connection between two or more objects.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Dependency"
+            },
+            {
+                "letter": "b",
+                "label": "Association"
+            },
+            {
+                "letter": "c",
+                "label": "Multiplicity"
+            },
+            {
+                "letter": "d",
+                "label": "Aggregation"
+            }
+        ]
+    },
+    {
+        "number": 2,
+        "question": "In this kind of relationship, the child class can exist independently of its parent class. ",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Dependency"
+            },
+            {
+                "letter": "b",
+                "label": "Association"
+            },
+            {
+                "letter": "c",
+                "label": "Multiplicity"
+            },
+            {
+                "letter": "d",
+                "label": "Aggregation"
+            }
+        ]
+    },
+    {
+        "number": 3,
+        "question": "It portrays the dependency between the parent and its child, which means if one part is deleted, then the",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Composition"
+            },
+            {
+                "letter": "b",
+                "label": "Dependency"
+            },
+            {
+                "letter": "c",
+                "label": "Multiplicity"
+            },
+            {
+                "letter": "d",
+                "label": "Aggregation"
+            }
+        ]
+    },
+    {
+        "number": 4,
+        "question": "It is a semantic relationship between two or more classes where a change in one class cause changes in another class",
+        "choices": [
+                        {
+                "letter": "a",
+                "label": "Composition"
+            },
+            {
+                "letter": "b",
+                "label": "Dependency"
+            },
+            {
+                "letter": "c",
+                "label": "Multiplicity"
+            },
+            {
+                "letter": "d",
+                "label": "Aggregation"
+            }
+        ]
+    },
+    {
+        "number": 5,
+        "question": "An individual participant in the sequence diagram",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Activity"
+            },
+            {
+                "letter": "b",
+                "label": "Use Case"
+            },
+            {
+                "letter": "c",
+                "label": "Forks"
+            },
+            {
+                "letter": "d",
+                "label": "Lifeline"
+            }
+        ]
+    },
+    {
+        "number": 6,
+        "question": "It represents a user goal that can be achieved by accessing the system or software application.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Use Case"
+            },
+            {
+                "letter": "b",
+                "label": "Interface"
+            },
+            {
+                "letter": "c",
+                "label": "Messages"
+            },
+            {
+                "letter": "d",
+                "label": "Note"
+            }
+        ]
+    },
+    {
+        "number": 7,
+        "question": "It is used write comments or remarks in UML diagrams",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Double slash"
+            },
+            {
+                "letter": "b",
+                "label": "Note"
+            },
+            {
+                "letter": "c",
+                "label": "Hashtag"
+            },
+            {
+                "letter": "d",
+                "label": "Comment"
+            }
+        ]
+    },
+    {
+        "number": 8,
+        "question": "Specify the type of UML Diagram: Communication",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Structure"
+            },
+            {
+                "letter": "b",
+                "label": "Interaction"
+            },
+            {
+                "letter": "c",
+                "label": "Behavior"
+            },
+            {
+                "letter": "d",
+                "label": "Method"
+            }
+        ]
+    },
+    {
+        "number": 9,
+        "question": " Specify the type of UML Diagram: Profile",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Structure"
+            },
+            {
+                "letter": "b",
+                "label": "Interaction"
+            },
+            {
+                "letter": "c",
+                "label": "Behavior"
+            },
+            {
+                "letter": "d",
+                "label": "Method"
+            }
+        ]
+    },
+    {
+        "number": 10,
+        "question": " Specify the type of UML Diagram: State Machine",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Structure"
+            },
+            {
+                "letter": "b",
+                "label": "Interaction"
+            },
+            {
+                "letter": "c",
+                "label": "Behavior"
+            },
+            {
+                "letter": "d",
+                "label": "Method"
+            }
+        ]
+    },
+{
+        "number": 11,
+        "question": "What is the purpose of a Use Case diagram? ",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "To identify multiplicities"
+            },
+            {
+                "letter": "b",
+                "label": "To define sequences of actions"
+            },
+            {
+                "letter": "c",
+                "label": "Identification of functional requirements "
+            },
+            {
+                "letter": "d",
+                "label": "Functional decomposition"
+            }
+        ]
+    },
+{
+        "number": 12,
+        "question": "Which UML diagram cannot be used to illustrate the detailed behavior of a use case? ",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Sequence Diagram"
+            },
+            {
+                "letter": "b",
+                "label": "Activity Diagram"
+            },
+            {
+                "letter": "c",
+                "label": "Class Diagram"
+            },
+            {
+                "letter": "d",
+                "label": "key Diagram"
+            }
+        ]
+    },
+{
+        "number": 13,
+        "question": "Operations are used in a/an ____________",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Class diagram"
+            },
+            {
+                "letter": "b",
+                "label": "Activity diagram"
+            },
+            {
+                "letter": "c",
+                "label": "Package diagram"
+            },
+            {
+                "letter": "d",
+                "label": "Use Case diagram"
+            }
+        ]
+    },
+{
+        "number": 14,
+        "question": "In order to represent a complicated process, you would used ____________.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "a Class diagram"
+            },
+            {
+                "letter": "b",
+                "label": "an Activity diagram"
+            },
+            {
+                "letter": "c",
+                "label": "a Use Case diagram"
+            },
+            {
+                "letter": "d",
+                "label": "a Communication diagram"
+            }
+        ]
+    },
+{
+        "number": 15,
+        "question": "Which of the following is a valid CLASS name?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Ticket"
+            },
+            {
+                "letter": "b",
+                "label": "Ticket Price"
+            },
+            {
+                "letter": "c",
+                "label": "Park Tickler"
+            },
+            {
+                "letter": "d",
+                "label": "Peter's Ticket"
+            }
+        ]
+    }
+]

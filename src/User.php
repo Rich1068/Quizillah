@@ -140,7 +140,8 @@ class User
 			saved_at
 			FROM quiz
 			WHERE username = '$user'
-			ORDER BY quiz
+
+			ORDER BY quiz, saved_at DESC
 			";
 			$statement = $conn->prepare($sql);
 			$statement->execute();

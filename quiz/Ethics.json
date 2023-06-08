@@ -1,0 +1,332 @@
+[
+    {
+        "number": 1,
+        "question": "dilemmas involve moral struggles and reflection in an effort to do the right thing. They engage the conscience, which must frequently respond to two or more competing and morally defensible courses of action.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Ethical Dilemma"
+            },
+            {
+                "letter": "b",
+                "label": "Ethical Problem"
+            },
+            {
+                "letter": "c",
+                "label": "Ethical Choices"
+            },
+            {
+                "letter": "d",
+                "label": "Ethical Dynamic"
+            }
+        ]
+    },
+    {
+        "number": 2,
+        "question": "way of life, conduct",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Religion"
+            },
+            {
+                "letter": "b",
+                "label": "Moral"
+            },
+            {
+                "letter": "c",
+                "label": "Choices"
+            },
+            {
+                "letter": "d",
+                "label": "Path"
+            }
+        ]
+    },
+    {
+        "number": 3,
+        "question": "willingness to take responsibility for the consequences of one's actions",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Integrity"
+            },
+            {
+                "letter": "b",
+                "label": "Civility"
+            },
+            {
+                "letter": "c",
+                "label": "Credibility"
+            },
+            {
+                "letter": "d",
+                "label": "Nihility"
+            }
+        ]
+    },
+    {
+        "number": 4,
+        "question": "an attitude of self-sacrifice and respect for others",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Integrity"
+            },
+            {
+                "letter": "b",
+                "label": "Civility"
+            },
+            {
+                "letter": "c",
+                "label": "Credibility"
+            },
+            {
+                "letter": "d",
+                "label": "Nihility"
+            }
+        ]
+    },
+    {
+        "number": 5,
+        "question": "man's wife has cancer and he can't afford the drug to cure her. should he steal it?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Cancer Dilemma"
+            },
+            {
+                "letter": "b",
+                "label": "Heinz Dilemma"
+            },
+            {
+                "letter": "c",
+                "label": "Drug Dilemma"
+            },
+            {
+                "letter": "d",
+                "label": "Heintz Dilemma"
+            }
+        ]
+    },
+    {
+        "number": 6,
+        "question": "self-interest should be the primary determinant in choosing actions but don't think they should ignore others.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Egoist"
+            },
+            {
+                "letter": "b",
+                "label": "Ego"
+            },
+            {
+                "letter": "c",
+                "label": "Egoism"
+            },
+            {
+                "letter": "d",
+                "label": "id"
+            }
+        ]
+    },
+    {
+        "number": 7,
+        "question": "ethical theory based on duty and obligation; act on principle without regard to consequences.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Meta ethics"
+            },
+            {
+                "letter": "b",
+                "label": "Teological"
+            },
+            {
+                "letter": "c",
+                "label": "Deontological"
+            },
+            {
+                "letter": "d",
+                "label": "Duty Ethics"
+            }
+        ]
+    },
+    {
+        "number": 8,
+        "question": "ethical theory concerned with outcomes and whatever produces the best consequences.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Meta ethics"
+            },
+            {
+                "letter": "b",
+                "label": "Teological"
+            },
+            {
+                "letter": "c",
+                "label": "Deontological"
+            },
+            {
+                "letter": "d",
+                "label": "Duty Ethics"
+            }
+        ]
+    },
+    {
+        "number": 9,
+        "question": "invovles the communication of false information that the communicator knows or belives to be false",
+      "choices": [
+            {
+                "letter": "a",
+                "label": "Lies"
+            },
+            {
+                "letter": "b",
+                "label": "Hoax"
+            },
+            {
+                "letter": "c",
+                "label": "Lack of Trust"
+            },
+            {
+                "letter": "d",
+                "label": "Bias"
+            }
+        ]
+    },
+    {
+        "number": 10,
+        "question": "manipulation by a person or group making a false claim to program the media for exposure or some other gain",
+      "choices": [
+            {
+                "letter": "a",
+                "label": "Lies"
+            },
+            {
+                "letter": "b",
+                "label": "Hoax"
+            },
+            {
+                "letter": "c",
+                "label": "Lack of Trust"
+            },
+            {
+                "letter": "d",
+                "label": "Bias"
+            }
+        ]
+    },
+    {
+        "number": 11,
+        "question": "Do what's best for the most people. The consequences are the important thing (not the act). 18th century, Mill.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Deontology"
+            },
+            {
+                "letter": "b",
+                "label": "Teological"
+            },
+            {
+                "letter": "c",
+                "label": "Utilitarianism"
+            },
+            {
+                "letter": "d",
+                "label": "Moral Duty"
+            }
+        ]  
+    },
+    {
+        "number": 12,
+        "question": "Absolutist perspective. Individuals have a responsibility to live up to moral principles (Kant).",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Deontology"
+            },
+            {
+                "letter": "b",
+                "label": "Teological"
+            },
+            {
+                "letter": "c",
+                "label": "Utilitarianism"
+            },
+            {
+                "letter": "d",
+                "label": "Moral Duty"
+            }
+        ]
+    },
+    {
+        "number": 13,
+        "question": "the problem-solving branch of moral philosophy. Insights from metaethics and rules of normative ethics are used to address ethical issues.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Applied Ethics"
+            },
+            {
+                "letter": "b",
+                "label": "Applied ethics"
+            },
+            {
+                "letter": "c",
+                "label": "Normative Ethics"
+            },
+            {
+                "letter": "d",
+                "label": "Metha Ethics"
+            }
+        ]
+    },
+    {
+        "number": 14,
+        "question": "develops general theories, rules and principles of moral conduct (such as the demise of traditional values in society).",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Applied Ethics"
+            },
+            {
+                "letter": "b",
+                "label": "Applied ethics"
+            },
+            {
+                "letter": "c",
+                "label": "Normative Ethics"
+            },
+            {
+                "letter": "d",
+                "label": "Metha Ethics"
+            }
+        ]
+    },
+    {
+        "number": 15,
+        "question": "character; apply principles when two moral obligations collide; deals with moral component of human life",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Ethics"
+            },
+            {
+                "letter": "b",
+                "label": "Ethical System"
+            },
+            {
+                "letter": "c",
+                "label": "Ethical Way"
+            },
+            {
+                "letter": "d",
+                "label": "Ethical Justice"
+            }
+        ]
+    }
+]

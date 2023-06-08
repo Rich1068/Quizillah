@@ -1,0 +1,332 @@
+[
+    {
+        "number": 1,
+        "question": "a relation has a composite candidate key defined consisting of two single character fields, in the range A-Z. How many tuples can the relation possibly hold?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "23"
+            },
+            {
+                "letter": "b",
+                "label": "Error"
+            },
+            {
+                "letter": "c",
+                "label": "676"
+            },
+            {
+                "letter": "d",
+                "label": "732"
+            }
+        ]
+    },
+    {
+        "number": 2,
+        "question": "A ____ is the dynamic result of one or more relational operations, that does not necessarily exist in the database, but that can be produced upon request",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "limit"
+            },
+            {
+                "letter": "b",
+                "label": "min max"
+            },
+            {
+                "letter": "c",
+                "label": "view"
+            },
+            {
+                "letter": "d",
+                "label": "views"
+            }
+        ]
+    },
+    {
+        "number": 3,
+        "question": "What do technical writers provide for the new system?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "documentation"
+            },
+            {
+                "letter": "b",
+                "label": "analysis"
+            },
+            {
+                "letter": "c",
+                "label": "network"
+            },
+            {
+                "letter": "d",
+                "label": "programs"
+            }
+        ]
+    },
+    {
+        "number": 4,
+        "question": "A collection of records of logically related data:",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Table"
+            },
+            {
+                "letter": "b",
+                "label": "Files"
+            },
+            {
+                "letter": "c",
+                "label": "Data"
+            },
+            {
+                "letter": "d",
+                "label": "knowledge base"
+            }
+        ]
+    },
+    {
+        "number": 5,
+        "question": "the language that allows the DBA to decribe and name entities....is",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "DDL"
+            },
+            {
+                "letter": "b",
+                "label": "DML"
+            },
+            {
+                "letter": "c",
+                "label": "DOL"
+            },
+            {
+                "letter": "d",
+                "label": "SQL"
+            }
+        ]
+    },
+    {
+        "number": 6,
+        "question": "relation is to table as ______ is to row",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "rows"
+            },
+            {
+                "letter": "b",
+                "label": "collection"
+            },
+            {
+                "letter": "c",
+                "label": "tables"
+            },
+            {
+                "letter": "d",
+                "label": "record"
+            }
+        ]
+    },
+    {
+        "number": 7,
+        "question": "Collection of logical storage units",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Database"
+            },
+            {
+                "letter": "b",
+                "label": "Tablespace"
+            },
+            {
+                "letter": "c",
+                "label": "Cloud"
+            },
+            {
+                "letter": "d",
+                "label": "Data"
+            }
+        ]
+    },
+    {
+        "number": 8,
+        "question": "Name column of a relation",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Attributes"
+            },
+            {
+                "letter": "b",
+                "label": "Entity"
+            },
+            {
+                "letter": "c",
+                "label": "Field"
+            },
+            {
+                "letter": "d",
+                "label": "Namespace"
+            }
+        ]
+    },
+    {
+        "number": 9,
+        "question": "set of allowable values",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "domain"
+            },
+            {
+                "letter": "b",
+                "label": "query"
+            },
+            {
+                "letter": "c",
+                "label": "glossary"
+            },
+            {
+                "letter": "d",
+                "label": "codes"
+            }
+        ]
+    },
+    {
+        "number": 10,
+        "question": "Key that is selected to identify tuples uniquely within the relation",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Foreign Key"
+            },
+            {
+                "letter": "b",
+                "label": "Compound Key"
+            },
+            {
+                "letter": "c",
+                "label": "Primary Key"
+            },
+            {
+                "letter": "d",
+                "label": "Composite Key"
+            }
+        ]
+    },
+{
+        "number": 11,
+        "question": "No proper subset of this uniquely identifies a tuple within a relation",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "super key"
+            },
+            {
+                "letter": "b",
+                "label": "composite key"
+            },
+            {
+                "letter": "c",
+                "label": "condense key"
+            },
+            {
+                "letter": "d",
+                "label": "foreign key"
+            }
+        ]
+    },
+{
+        "number": 12,
+        "question": "Work from a specification produced by systems analyst",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "database designer"
+            },
+            {
+                "letter": "b",
+                "label": "data analyst"
+            },
+            {
+                "letter": "c",
+                "label": "cloud computing"
+            },
+            {
+                "letter": "d",
+                "label": "database manager"
+            }
+        ]
+    },
+{
+        "number": 13,
+        "question": "Responsible for the physical realization of the database",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "database manager"
+            },
+            {
+                "letter": "b",
+                "label": "data analyst"
+            },
+            {
+                "letter": "c",
+                "label": "application developer"
+            },
+            {
+                "letter": "d",
+                "label": "database administrator"
+            }
+        ]
+    },
+{
+        "number": 14,
+        "question": "an integrated collection of concepts for describing and manipulating data, relationships between data, and constraints on the data",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "query"
+            },
+            {
+                "letter": "b",
+                "label": "normalization"
+            },
+            {
+                "letter": "c",
+                "label": "schema"
+            },
+            {
+                "letter": "d",
+                "label": "generalization"
+            }
+        ]
+    },
+{
+        "number": 15,
+        "question": "the users view of the database is",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "all external level"
+            },
+            {
+                "letter": "b",
+                "label": "limited to what users desire"
+            },
+            {
+                "letter": "c",
+                "label": "limited to the view clause"
+            },
+            {
+                "letter": "d",
+                "label": "permission needed to view"
+            }
+        ]
+    }
+]

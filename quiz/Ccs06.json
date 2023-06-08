@@ -1,0 +1,333 @@
+[
+    {
+        "number": 1,
+        "question": "What is the correct syntax to change the font color into red?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "color;red;"
+            },
+            {
+                "letter": "b",
+                "label": "color:: red;"
+            },
+            {
+                "letter": "c",
+                "label": "color: red;"
+            },
+            {
+                "letter": "d",
+                "label": "color=red;"
+            }
+        ]
+    },
+    {
+        "number": 2,
+        "question": "Where is the correct place to insert a JavaScript?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Both head and body"
+            },
+            {
+                "letter": "b",
+                "label": "Head Section"
+            },
+            {
+                "letter": "c",
+                "label": "Body Section"
+            },
+            {
+                "letter": "d",
+                "label": "None of the above"
+            }
+        ]
+    },
+    {
+        "number": 3,
+        "question": "What is the correct syntax for referring to an external script called 'myscript.js'?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "script src='myscript.js'."
+            },
+            {
+                "letter": "b",
+                "label": "javascript href='myscript.js'."
+            },
+            {
+                "letter": "c",
+                "label": "javascript =myscript.js"
+            },
+            {
+                "letter": "d",
+                "label": "href='myscript.js'"
+            }
+        ]
+    },
+    {
+        "number": 4,
+        "question": "How can you add a one line comment in a JavaScript?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "'This is a comment"
+            },
+            {
+                "letter": "b",
+                "label": "//This is a comment"
+            },
+            {
+                "letter": "c",
+                "label": "--comment--"
+            },
+            {
+                "letter": "d",
+                "label": "!!comment!!"
+            }
+        ]
+    },
+    {
+        "number": 5,
+        "question": "In Javascript, write 'Hello World' in an alert box?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Alert('Hello World');"
+            },
+            {
+                "letter": "b",
+                "label": "msgBox('Hello World');"
+            },
+            {
+                "letter": "c",
+                "label": "alert('Hello World');"
+            },
+            {
+                "letter": "d",
+                "label": "msg('Hello World');"
+            }
+        ]
+    },
+    {
+        "number": 6,
+        "question": "How do you create a function in JavaScript?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "function: functioname()"
+            },
+            {
+                "letter": "b",
+                "label": "function call"
+            },
+            {
+                "letter": "c",
+                "label": "function = functioname()"
+            },
+            {
+                "letter": "d",
+                "label": "function == functioname"
+            }
+        ]
+    },
+    {
+        "number": 7,
+        "question": "FIn Javascript, how can a webpage ask a question to a user with only 'true' or 'false' are the allowable answers?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "confirm()"
+            },
+            {
+                "letter": "b",
+                "label": "alert()"
+            },
+            {
+                "letter": "c",
+                "label": "prompt()"
+            },
+            {
+                "letter": "d",
+                "label": "msgBox()"
+            }
+        ]
+    },
+    {
+        "number": 8,
+        "question": "How do you declare a JavaScript variable?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "var myName;"
+            },
+            {
+                "letter": "b",
+                "label": "v myName;"
+            },
+            {
+                "letter": "c",
+                "label": "variable myName;"
+            },
+            {
+                "letter": "d",
+                "label": "intvarmyName"
+            }
+        ]
+    },
+    {
+        "number": 9,
+        "question": "These are the translators of the data over the web for the clients/users to understand",
+      "choices": [
+            {
+                "letter": "a",
+                "label": "Web Client"
+            },
+            {
+                "letter": "b",
+                "label": "Web Browsers"
+            },
+            {
+                "letter": "c",
+                "label": "Website"
+            },
+            {
+                "letter": "d",
+                "label": "Web Development"
+            }
+        ]
+    },
+    {
+        "number": 10,
+        "question": "It is a computer that serves as a storage for your web pages",
+      "choices": [
+            {
+                "letter": "a",
+                "label": "Web Client"
+            },
+            {
+                "letter": "b",
+                "label": "Web Browsers"
+            },
+            {
+                "letter": "c",
+                "label": "Web Server"
+            },
+            {
+                "letter": "d",
+                "label": "Web Development"
+            }
+        ]
+    },
+    {
+        "number": 11,
+        "question": "It is the main international standard organization which was created by Tim Berners-Lee to decide the rules and protocols over the web.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Java"
+            },
+            {
+                "letter": "b",
+                "label": "iBM"
+            },
+            {
+                "letter": "c",
+                "label": "xml"
+            },
+            {
+                "letter": "d",
+                "label": "W3C"
+            }
+        ]  
+    },
+    {
+        "number": 12,
+        "question": "It is a single document in the web.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Web Client"
+            },
+            {
+                "letter": "b",
+                "label": "Web Browsers"
+            },
+            {
+                "letter": "c",
+                "label": "Web Server"
+            },
+            {
+                "letter": "d",
+                "label": "Web Page"
+            }
+        ]
+    },
+    {
+        "number": 13,
+        "question": "It is the address used for the web - a pointer to some bit of data. It is the one we enter in the address bar.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Domain"
+            },
+            {
+                "letter": "b",
+                "label": "WWW"
+            },
+            {
+                "letter": "c",
+                "label": "URL"
+            },
+            {
+                "letter": "d",
+                "label": "HTTP"
+            }
+        ]
+    },
+    {
+        "number": 14,
+        "question": "It is an open source information space where web documents and other web resources are identified by URLs and can be accessed via the Internet.",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "HTTP"
+            },
+            {
+                "letter": "b",
+                "label": "WWW"
+            },
+            {
+                "letter": "c",
+                "label": "Internet"
+            },
+            {
+                "letter": "d",
+                "label": "URL"
+            }
+        ]
+    },
+    {
+        "number": 15,
+        "question": "Who developed the WWW?",
+        "choices": [
+            {
+                "letter": "a",
+                "label": "Tim Berners-Lee"
+            },
+            {
+                "letter": "b",
+                "label": "Peter Sutherland"
+            },
+            {
+                "letter": "c",
+                "label": "Google"
+            },
+            {
+                "letter": "d",
+                "label": "Microsoft"
+            }
+        ]
+    }
+    
+    ]
