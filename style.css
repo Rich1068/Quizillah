@@ -6,11 +6,12 @@ form.register {
   background-size: cover;
   background-size: 100% 100%;
     padding: 10px;
-    margin: 20px;
+
     max-width: 900px; /* set a maximum width */
     margin-left: 10px; /* center horizontally */
     margin-right: auto;
     height: 800px;
+    margin-top: 60px;
 }
 
 input[type="text"],
@@ -73,8 +74,7 @@ hr.divider4{
 }
 
 .form-section {
-    padding: 16px;
-    font-size: .85rem;
+    padding: 0px;
 }
 
 .form-section a {
@@ -114,8 +114,19 @@ div.vl1 {
 
 body.reg {
   background-image: url("images/BACKGROUND_register.png");
-    font-family: Arial, sans-serif;
-    
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 110%;
+  font-family: Arial, sans-serif;
+}
+img.text{
+  top: 40%;
+  right: 5%;
+  width: 20%;
+  position: absolute;
+  margin-right: 30px;
+  z-index: 5;
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
@@ -217,6 +228,13 @@ body.login_body{
   top: auto;
   left:auto;
 }
+.about_us{
+  position:fixed;
+    bottom:0;
+    right:0;
+  font-size: 25px;
+  margin: 10px;
+}
 
 
 /*-------------------------------------------------------------------------------------------------------------*/
@@ -225,7 +243,9 @@ body.login_body{
 body.bg{
     background-image: url("images/Selection_bg.png"); /*lagay piksur or bg */
     background-repeat: no-repeat;
-  background-size: 100% 200%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 130%;
 
 }
 
@@ -233,7 +253,7 @@ body.bg{
 /*----------------------------------------------------ETHICS---------------------------------------------------*/
 button.button_type2 {
     height: 50px;
-    width: 196px;
+    width: 270px;
     position: relative;
     background-color: transparent;
     cursor: pointer;
@@ -279,7 +299,7 @@ button.button_type2 {
 /*-----------------------------------------------------CCS06---------------------------------------------------*/
 button.button_type3 {
     height: 50px;
-    width: 196px;
+    width: 270px;
     position: relative;
     background-color: transparent;
     cursor: pointer;
@@ -324,7 +344,7 @@ button.button_type3 {
 /*------------------------------------------------CONTEMP WORLD------------------------------------------------*/
 button.button_type1 {
     height: 50px;
-    width: 196px;
+    width: 270px;
     position: relative;
     background-color: transparent;
     cursor: pointer;
@@ -333,6 +353,7 @@ button.button_type1 {
     border-radius: 30px;
     color: #ffffff;
     transition: all 0.5s ease-in-out;
+    margin-left: 0.3px;
   }
   
   .btn-txt {
@@ -365,16 +386,11 @@ button.button_type1 {
     visibility: visible;
     transform: scale(100) translateX(2px);
   }
-/*-------------------------------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------LOGOUT------------------------------------------------*/
-a.logout{
-    margin-top: 200px;
-}
-/*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------ITE---------------------------------------------------*/
 button.button_type4 {
     height: 50px;
-    width: 196px;
+    width: 270px;
     position: relative;
     background-color: transparent;
     cursor: pointer;
@@ -419,7 +435,7 @@ button.button_type4 {
 /*---------------------------------------------------------CCS05-------------------------------------------------*/
 button.button_type5 {
     height: 50px;
-    width: 196px;
+    width: 270px;
     position: relative;
     background-color: transparent;
     cursor: pointer;
@@ -460,3 +476,859 @@ button.button_type5 {
     visibility: visible;
     transform: scale(100) translateX(2px);
   }
+  /*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------LEADERBOARDS-----------------------------------------------*/
+  select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 20px;
+    left:29%;
+    top:4%;
+    position: absolute;
+  }
+  #myForm {
+    margin-top: 20px;
+  }
+  option {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: darkcyan;
+  }
+  body.body_res {
+    background-image: url("images/LEADERBOARD_MAIN_BG.png");
+    position: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  table.tb-res {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    position: center;
+    border-radius: 10px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #666; /* this draws the table border  */ 
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+      }
+  th.th-res{
+    background-color: skyblue;
+    }
+  img.logo{
+    position: absolute;
+    right: 27%;
+    width: 15%
+    }
+  img.crown{
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    margin: 0 auto;
+
+  }
+  h2.lb-res{
+    position: relative;
+    color: white;
+  }
+  /*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------ABOUT US.php-----------------------------------------------*/
+  body.ABS {
+    background-image: url('images/ABOUT_US_MAIN_BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  img.team{
+    width: 80%;
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    margin: 0 auto;
+    bottom: 0;
+    margin-bottom: 40px;
+  }
+  img.about{
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  p.text{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block; 
+    text-align: justify;
+    color:darkslateblue;
+  }
+  div.text{
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  
+
+
+
+
+
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------RESULT.php-----------------------------------------------*/
+  body.BODY-RES {
+    background-image: url("images/result_bg.jpg");
+    background-size: cover;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    margin:0;
+  }
+  div.score {
+    border-radius: 25px;
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    max-width: 99%;
+    margin-left: 110px;
+    margin-top: 20px;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    overflow:hidden;
+    border: 5px lightcyan solid;
+  }
+
+  button.select {
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: #3be5ff;
+    cursor: pointer;
+    border: 2px solid darkblue; /*BORDER COLOR*/
+    overflow: hidden;
+    border-radius: 30px;
+    color: black;             /*FONT COLOR AT EASE*/
+    transition: all 0.5s ease-in-out;
+  }
+  .btn-txt-res {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+
+  .select::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #3be5ff;  /*COLOR FILL UP THE BUTTON*/
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+
+  .select:hover {
+    box-shadow: 1px 1px 200px #3be5ff; /* SHADOW COLOR */
+    color: black; /* FONT COLOR CHANGE COLOR WHEN HOVER*/
+    border: none;
+  }
+  /*-------------------------------------------------------------------------------------------------------------*/
+  button.save {
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: #9EAD42;
+    cursor: pointer;
+    border: 2px solid #013220; /*BORDER COLOR*/
+    overflow: hidden;
+    border-radius: 30px;
+    color: black;             /*FONT COLOR AT EASE*/
+    transition: all 0.5s ease-in-out;
+  }
+  .btn-txt1-res {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+
+  .save::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #9EAD42;  /*COLOR FILL UP THE BUTTON*/
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+
+  .save:hover {
+    box-shadow: 1px 1px 200px #9EAD42; /* SHADOW COLOR */
+    color: black; /* FONT COLOR CHANGE COLOR WHEN HOVER*/
+    border: none;
+  }
+  .donesave{
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #9EAD42; /*BORDER COLOR*/
+    overflow: hidden;
+    border-radius: 30px;
+    color: black;             /*FONT COLOR AT EASE*/
+    transition: all 0.5s ease-in-out;
+  }
+  div.sc {
+    font-size: 30px;
+  }
+  /*-------------------------------------------------------------------------------------------------------------*/
+  button.lb {
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: #9EAD42;
+    cursor: pointer;
+    border: 2px solid #013220; /*BORDER COLOR*/
+    overflow: hidden;
+    border-radius: 30px;
+    color: black;             /*FONT COLOR AT EASE*/
+    transition: all 0.5s ease-in-out;
+  }
+  .btn-txt2-res {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+
+  .lb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #9EAD42;  /*COLOR FILL UP THE BUTTON*/
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+
+  .lb:hover {
+    box-shadow: 1px 1px 200px #9EAD42; /* SHADOW COLOR */
+    color: black; /* FONT COLOR CHANGE COLOR WHEN HOVER*/
+    border: none;
+  }
+  /*-------------------------------------------------------------------------------------------------------------*/
+  button.profile {
+    height: 50px;
+    width: 196px;
+    position: relative;
+    background-color: #3be5ff;
+    cursor: pointer;
+    border: 2px solid darkblue; /*BORDER COLOR*/
+    overflow: hidden;
+    border-radius: 30px;
+    color: black;             /*FONT COLOR AT EASE*/
+    transition: all 0.5s ease-in-out;
+  }
+  .btn-txt3-res {
+    z-index: 1;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+
+  .profile::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #3be5ff;  /*COLOR FILL UP THE BUTTON*/
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+
+  .profile:hover {
+    box-shadow: 1px 1px 200px #3be5ff; /* SHADOW COLOR */
+    color: black; /* FONT COLOR CHANGE COLOR WHEN HOVER*/
+    border: none;
+  }
+  h2.result {
+    color: white;
+    margin-left: 95px;
+
+  }
+  div.header-res {
+    padding: 1px;
+    text-align: left;
+    background: #423880;
+    font-size: 35px;
+    display: flex;
+  }
+  img.logo-bg_res {
+    top: 1%;
+    left: 73%;
+    position: absolute;
+  }
+  
+
+     /*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------QUIZ.PHP-----------------------------------------------*/
+form.ques {
+  background-color: #fff;
+
+  border-radius: 45px;
+  padding: 10px;
+  margin: 0px;
+  max-width: 1085px; /* set a maximum width */
+  width: 1085px;
+  height: 650px;
+  background-image: url('images/QuizFrame.png');
+  background-size: cover;
+  margin-top: 17px;
+  position: relative;
+  left:-2px;
+  
+}
+.bodiCw{
+  background-color: #8b0000;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bodiCcs05{
+  background-color: #32612D;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bodiCcs06{
+  background-color: #9E7BB3;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bodiEthics{
+  background-color: #1f3879;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bodiIte{
+  background-color: #4A4A4A;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.quiz{
+  display: flex;
+  align-items: center;
+  
+}
+
+input[type="radio"] {
+  /* Move the radio circle to the right */
+  position: left;
+  margin-left: 350px;
+}
+.radio-container {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  line-height: 2;
+}
+
+.radio-container input[type="radio"] {
+  margin-right: 70px;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+
+}
+.next {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  height: 50px;
+  width: 196px;
+  font-size: 20px;
+  position: absolute;
+  left: 79.5%;
+  top: -10%;
+  z-index: 5;
+}
+
+.next:hover {
+  background-color: #3e8e41;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translate(2px, 2px);
+}
+.kwesyun{
+  font-size: 25px;
+}
+
+.b_button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  height: 50px;
+  width: 196px;
+  font-size: 20px;
+  position: absolute;
+  left: 21.99%;
+  top: -0.6%;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.b_button:hover {
+  background-color: #880808;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translate(2px, 2px);
+}
+.b_button > svg {
+  margin-right: 5px;
+  margin-left: -10px;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+  height: 20;
+  width: 20;
+}
+
+.b_button:hover > svg {
+  font-size: 3em;
+  transform: translateX(-20px);
+}
+h1.quizh1 {
+  font-size: 40px;
+  color: white;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------PROFILE.PHP-----------------------------------------------*/
+body.pf-body {
+  background-image: url(images/PROFILE_BG.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img.pf-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+table.pf_tbl {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+  position: center;
+  border-radius: 10px;
+  border-style: hidden; /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 1px #666; /* this draws the table border  */ 
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  font-size: 20px;
+}
+th.pf{
+  background-color: skyblue;
+}
+div.user {
+  height: 50px;
+  width: 160px;
+  position: relative;
+  background-color: #6578BB;
+  border: 2px solid white; /*BORDER COLOR*/
+  overflow: hidden;
+  border-radius: 30px;
+  color: white;             /*FONT COLOR AT EASE*/
+  transition: all 0.5s ease-in-out;
+  font-size: 20px;
+  margin: auto;
+  right: 17%;
+  } 
+h4.user{
+  position:absolute; 
+  bottom:-13px; 
+  left:20%;
+}
+div.email{
+  height: 50px;
+  width: 300px;
+  position: relative;
+  background-color: #60750B;
+  border: 2px solid white; /*BORDER COLOR*/
+  overflow: hidden;
+  border-radius: 30px;
+  color: white;             /*FONT COLOR AT EASE*/
+  transition: all 0.5s ease-in-out;
+  font-size: 20px;
+  margin: auto;
+  right: 13.5%;
+}
+h4.email{
+  position:absolute; 
+  bottom:-14px; 
+  left:12%;
+}
+button.leaderboard {
+  height: 50px;
+  width: 220px;
+  position: absolute;
+  background-color: #CA9721;
+  cursor: pointer;
+  border: 2px solid white; /*BORDER COLOR*/
+  overflow: hidden;
+  border-radius: 30px;
+  color: white;             /*FONT COLOR AT EASE*/
+  transition: all 0.5s ease-in-out;
+  top:28%;
+  left:59.5%;
+}
+.btn-txt {
+  z-index: 1;
+  font-weight: 800;
+  letter-spacing: 0px;
+}
+
+.leaderboard::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: yellow;  /*COLOR FILL UP THE BUTTON*/
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.leaderboard:hover {
+  box-shadow: 1px 1px 200px #CA9721; /* SHADOW COLOR */
+  color: white; /* FONT COLOR CHANGE COLOR WHEN HOVER*/
+  border: none;
+}
+img.crowny{
+  display: block;
+  left: 62.8%;
+  top: 19.5%;
+  width: 5%;
+  position: absolute;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------DROP DOWN------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+img.ddlogo{
+  position: absolute;
+  width: 15%;
+  top: -53%;
+  left:42.5%;
+}
+.section-center{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked){
+  position: absolute;
+  left: -9999px;
+}
+.menu-icon:checked + label,
+.menu-icon:not(:checked) + label{
+  position: fixed;
+  top: 63px;
+  right: 40px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+.menu-icon:checked + label:before,
+.menu-icon:not(:checked) + label:before{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 30px;
+  height: 20px;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  border-top: 2px solid #ececee;
+  border-bottom: 2px solid #ececee;
+  transition: border-width 100ms 1500ms ease, 
+              top 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1),
+              height 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1), 
+              background-color 200ms ease,
+              transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.menu-icon:checked + label:after,
+.menu-icon:not(:checked) + label:after{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 22px;
+  height: 2px;
+  z-index: 20;
+  top: 10px;
+  right: 4px;
+  background-color: #ececee;
+  margin-top: -1px;
+  transition: width 100ms 1750ms ease, 
+              right 100ms 1750ms ease,
+              margin-top 100ms ease, 
+              transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu-icon:checked + label:before{
+  top: 10px;
+  transform: rotate(45deg);
+  height: 2px;
+  background-color: #ececee;
+  border-width: 0;
+  transition: border-width 100ms 340ms ease, 
+              top 100ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+              height 100ms 300ms cubic-bezier(0.23, 1, 0.32, 1), 
+              background-color 200ms 500ms ease,
+              transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.menu-icon:checked + label:after{
+  width: 30px;
+  margin-top: 0;
+  right: 0;
+  transform: rotate(-45deg);
+  transition: width 100ms ease,
+              right 100ms ease,  
+              margin-top 100ms 500ms ease, 
+              transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.nav{
+  position: fixed;
+  top: 33px;
+  right: 15px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  z-index: 9;
+  overflow: hidden;
+  box-shadow: 0 8px 30px 0 rgba(0,0,0,0.3);
+  background-color: darkslateblue;
+  animation: border-transform 7s linear infinite;
+  transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),  
+              right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
+              transform 250ms 1100ms ease,
+              width 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1),
+              height 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+@keyframes border-transform{
+    0%,100% { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; } 
+  14% { border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%; } 
+  28% { border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%; } 
+  42% { border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%; } 
+  56% { border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%; } 
+  70% { border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%; } 
+  84% { border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%; } 
+}
+
+.menu-icon:checked ~ .nav {
+  animation-play-state: paused;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 200%;
+  height: 200%;
+  transition: top 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1),  
+              right 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1),
+              transform 250ms 700ms ease,
+              width 750ms 1000ms cubic-bezier(0.23, 1, 0.32, 1),
+              height 750ms 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.nav ul{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  text-align: center;
+  transform: translateY(-50%);
+  list-style: none;
+}
+.nav ul li{
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 10px 0;
+  text-align: center;
+  list-style: none;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(30px);
+  transition: all 250ms linear;
+  
+}
+.nav ul li:nth-child(1){
+  transition-delay: 250ms;
+}
+.nav ul li:nth-child(2){
+  transition-delay: 150ms;
+}
+.nav ul li:nth-child(3){
+  transition-delay: 150ms;
+}
+.nav ul li:nth-child(4){
+  transition-delay: 150ms;
+}
+.nav ul li:nth-child(5){
+  transition-delay: 150ms;
+}
+.nav ul li:nth-child(6){
+  transition-delay: 150ms;
+}
+.nav ul li a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7vh;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 800;
+  display: inline-block;
+  position: relative;
+  color: #ececee;
+  transition: all 250ms linear;
+}
+.nav ul li a:hover{
+  text-decoration: none;
+  color: #ffeba7;
+}
+
+.nav ul li a:hover:after{
+  width: 100%;
+}
+
+
+.menu-icon:checked ~ .nav  ul li {
+  pointer-events: auto;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 350ms ease,
+              transform 250ms ease;
+}
+.menu-icon:checked ~ .nav ul li:nth-child(1){
+  transition-delay: 1400ms;
+}
+.menu-icon:checked ~ .nav ul li:nth-child(2){
+  transition-delay: 1480ms;
+}
+.menu-icon:checked ~ .nav ul li:nth-child(3){
+  transition-delay: 1560ms;
+}
+.menu-icon:checked ~ .nav ul li:nth-child(4){
+  transition-delay: 1640ms;
+}
+.menu-icon:checked ~ .nav ul li:nth-child(5){
+  transition-delay: 1720ms;
+}
+.menu-icon:checked ~ .nav ul li:nth-child(6){
+  transition-delay: 1800ms;
+}
+@media screen and (max-width: 991px) {
+  .menu-icon:checked + label,
+  .menu-icon:not(:checked) + label{
+    right: 55px;
+  }
+  .logo {
+    left: 30px;
+  }
+  .nav{
+    right: 30px;
+  }
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------Attempt login-----------------------------------------------*/
+
+h1.h1{
+  color: white; 
+  font-family:Arial, Helvetica, sans-serif; 
+  text-align: center;
+  position: relative;
+  display:block;
+  top:40%;
+  
+}
+img.error{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  width: 40%;
+  
+}
+a.login{
+  color: white; 
+  font-family:Arial, Helvetica, sans-serif; 
+  text-align:center;
+  display:block;
+  position: relative;
+  font-size: 25px;
+  top:40%;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------END-----------------------------------------------*/

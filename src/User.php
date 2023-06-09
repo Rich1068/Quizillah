@@ -51,7 +51,8 @@ class User
 
 	public static function hashPassword($password)
 	{
-		$hashed_password = password_hash($password, PASSWORD_DEFAULT);
+		$hashed_password = null;
+		$hashed_password = crypt($password,'$5$');
 		return $hashed_password;
 	}
 
@@ -63,20 +64,22 @@ class User
 			$sql = "
 				SELECT * FROM users
 				WHERE email=:email
+					AND password=:password
 				LIMIT 1
 			";
 			$statement = $conn->prepare($sql);
-			$statement->execute([
-				'email' => $email,
-			]);
-			$user = $statement->fetchObject('App\User');
 		
-			if ($user && password_verify($pass, User::hashPassword($pass))) {
+			if(password_verify($pass, User::hashPassword($pass))){
 				$pass = User::hashPassword($pass);
-				return $user;
-			}
+				$statement->execute([
+					'email' => $email,
+					'password' => $pass
+				]);
+	
+				$result = $statement->fetchObject('App\User');
+				}
 
-			
+				return $result;
 		} catch (PDOException $e) {
 			error_log($e->getMessage());
 		}
@@ -112,12 +115,13 @@ class User
 
 		try {
 			foreach ($users as $user) {
+				$hashed_password = User::hashPassword($user['password']);
 				$sql = "
 					INSERT INTO users
 					SET
 						username=\"{$user['username']}\",
 						email=\"{$user['email']}\",
-						pass=\"{$user['pass']}\"
+						pass=\"{$hashed_password}\"
 				";
 				$conn->exec($sql);
 				// echo "<li>Executed SQL query " . $sql;

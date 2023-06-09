@@ -13,15 +13,6 @@ if (isset($_SESSION['is_logged_in'])) {
 <!DOCTYPE html>
 <html>
 	<head>
-		<style>
-		.about_us{
-			position:fixed;
-    		bottom:0;
-    		right:0;
-			font-size: 25px;
-			margin: 10px;
-		}
-		</style>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Login</title>
@@ -52,12 +43,11 @@ if (isset($_SESSION['is_logged_in'])) {
 					</button>	
 				</div>
 				<hr class="div2" align="center">
-				<div class="div3" align="center">Not yet a member?</div>
+				<div style="font-family:Arial, Helvetica, sans-serif;" align="center">Not yet a member?</div>
 				<div align="center">
-					<a href="register.php">Register</a>	
+					<a style="font-family:Arial, Helvetica, sans-serif;" href="register.php">Register</a>	
 				</div>
 			</form>
 		</div>
-		<a href="about_us.php" class="about_us"><b>ABOUT US</b></a>	
 	</body>
 </html>

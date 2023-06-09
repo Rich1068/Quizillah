@@ -1,3 +1,7 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">	
+	</head>
 <?php
 
 require "config.php";
@@ -28,10 +32,15 @@ try {
 
 } catch (PDOException $e) {
 	error_log($e->getMessage());
-	echo "<h1 style='color: red'>" . $e->getMessage() . "</h1>";
+	echo "<img class='error' src='images/Error.png'>";
+	echo "<h1 class='h1'>" . $e->getMessage() . "</h1>";
+	echo "<a class='login' href='login.php'>Back to Login</a>";
 } catch (Exception $e) {
 	error_log($e->getMessage());
-	echo "<h1 style='color: red'>" . $e->getMessage() . "</h1>";
+	echo "<img class='error' src='images/Error.png'>";
+	echo "<h1 class='h1'>" . $e->getMessage() . "</h1>";
+	echo "<a class='login' href='login.php'>Back to Login</a>";
 }
 
-echo '<a href="login.php">Login</a>';
+
+

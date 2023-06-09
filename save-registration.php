@@ -1,3 +1,7 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">	
+</head>
 <?php
 
 require "config.php";
@@ -14,6 +18,8 @@ try {
 
 	if ($_POST['password']!=$_POST['confirm_password']){
 		header("Refresh:0; url=register.php");
+		
+		echo '<script>alert("Password and Confirm Password does not match. Please try again")</script>';
 	}
 	else{
 		$result = User::register($username, $email, $password);
@@ -33,6 +39,8 @@ try {
 
 } catch (PDOException $e) {
 	error_log($e->getMessage());
-	echo "<h1 style='color: red'>" . $e->getMessage() . "</h1>";
+	echo "<img class='error' src='images/Error.png'>";
+	echo "<h1 class='h1'>" . "Email Already In Use Please Try Another Email" . "</h1>";
+	echo "<a class='login' href='register.php'>Back to Register</a>";
 }
 
