@@ -100,7 +100,6 @@ class User
 			";
 
 			$conn->exec($sql);
-			// echo "<li>Executed SQL query " . $sql;
 			return $conn->lastInsertId();
 		} catch (PDOException $e) {
 			error_log($e->getMessage());
@@ -124,7 +123,6 @@ class User
 						pass=\"{$hashed_password}\"
 				";
 				$conn->exec($sql);
-				// echo "<li>Executed SQL query " . $sql;
 			}
 			return true;
 		} catch (PDOException $e) {

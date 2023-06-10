@@ -19,8 +19,6 @@ try {
 
 	if (!is_null($result) ) {
 
-		// Set the logged in session variable and redirect user to index page
-
 		$_SESSION['is_logged_in'] = true;
 		$_SESSION['user'] = [
 			'id' => $result->getId(),

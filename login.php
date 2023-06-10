@@ -2,7 +2,7 @@
 
 require "config.php";
 session_destroy();
-// If the session variable is already set, automatically redirect the user to index page
+// If the session variable is already set, automatically redirect the user to selection page
 if (isset($_SESSION['is_logged_in'])) {
 	if ($_SESSION['is_logged_in']) {
 		header('Location: selection.php');

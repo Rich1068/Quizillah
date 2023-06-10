@@ -70,12 +70,8 @@ foreach($leaderboard as $data){
 }
 ?>
 <script>
-<?php
 
-  // $storedValue = isset($_SESSION['dropdown']) ? $_SESSION['dropdown'] : '';
-?>
 document.getElementById('Dropdown').value = '<?php echo $selectedSubject; ?>';
-
 
 function submitForm() {
     document.getElementById('myForm').submit();
